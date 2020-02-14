@@ -11,7 +11,7 @@
   <header>
     <nav>
       <ul>
-        <li class="top-nav-logo"><a href="index.html"><img src="svg/Logo Nav Bar Mobile.svg"></a></li>
+        <li class="top-nav-logo"><a href="index.html"><img src="img/Logo Nav Bar Mobile.svg"></a></li>
         <li class="nav-link"><a href="index.html">WORK</a></li>
         <li class="nav-link"><a href="about.html">ABOUT</a></li>
       </ul>
@@ -22,15 +22,17 @@
     <div class="container">
       <!-- hero -->
       <section class="hero-event-drawer">
-        <h1>EVENT DRAWER</h1>
-        <img src="svg/Event Drawer/Event Drawer Home.svg">
+        <img src="img/Event Drawer/Event Drawer Heading Mobile.svg">
+        <img src="img/Event Drawer/Event Drawer Hero Image Mobile.jpg">
         <button type="button"><a href="https://invis.io/DQVH4A7V6YC">VIEW PROTOTYPE</a></button>
-        <h3>ROLES</h3>
-        <p>Research, Branding, Design, Testing</p>
-        <h3>TOOLS USED</h3>
-        <p>Google Forms, Draw.io, Figma, InVision, Usability Hub</p>
-        <h3>SCOPE</h3>
-        <p>User Interviews, Surveys, Personas, Information Architecture, Wireframes, Prototype, User Testing</p>
+        <section class="hero-event-drawer-roles">
+          <h3>ROLES</h3>
+          <p>Research, Branding, Design, Testing</p>
+          <h3>TOOLS USED</h3>
+          <p>Google Forms, Draw.io, Figma, InVision, Usability Hub</p>
+          <h3>SCOPE</h3>
+          <p>User Interviews, Surveys, Personas, Information Architecture, Wireframes, Prototype, User Testing</p>
+        </section>
       </section>
       <!-- other content -->
       <section>
@@ -43,8 +45,10 @@
       <section>
         <h3>SOLUTION</h3>
         <p>Event Drawer is a one-stop-shop for event planning and organization.  Users can create events (or drawers), upload or create related files within these drawers, invite contacts, and track attendance.</p>
-        <img src="svg/Event Drawer/Event Drawer Home.svg">
-        <img src="svg/Event Drawer/Solution2.svg">
+        <img src="img/Event Drawer/Home Mobile.jpg">
+        <img src="img/Event Drawer/Inbox Mobile.jpg">
+        <img src="img/Event Drawer/Invite Mobile.jpg">
+        <img src="img/Event Drawer/Attendance List Mobile.jpg">
       </section>
       <section>
         <h3>DISCOVERY & RESEARCH</h3>
@@ -53,18 +57,19 @@
           <li>Do people use cloud storage products to help plan events?</li>
           <li>What problems do users face when planning events?</li>
         </ol>
-        <img src="svg/Event Drawer/Survey Chart.svg">
+        <img src="img/Event Drawer/Survey Results Mobile.svg">
+        <button type="button"><a href="">VIEW SURVEY</a></button>
         <p>Over 60% of respondents said they used cloud storage products to assist with event planning.  The two biggest problems users faced when planning events were keeping track of attendance levels and feeling generally disorganized and overwhelmed.  This survey informed me to create a product that would:</p>
         <ol class="big-list">
           <li>Allow users to track attendance</li>
           <li>Keep all event-related info in a single, easy-to-access space</li>
         </ol>
         <p>I analyzed Google Drive, Dropbox, and Pinterest, which all allow for easy file creation and collaboration.  However, users would have to get creative in their use of each product to effectively use them as event planners.  Why not provide a product that was specifically tailored to this purpose?</p>
-        <img src="svg/Event Drawer/Comp Analysis.svg">
+        <img src="img/Event Drawer/Comp Analysis.svg">
         <p>I created the following user personas:</p>
         <div class="persona">
           <h3>JAMES</h3>
-          <img src="svg/Event Drawer/James.svg">
+          <img src="img/Event Drawer/James.jpg">
           <ul class="persona-intro">
             <li>Social young professional</li>
             <li>25 years old</li>
@@ -79,19 +84,165 @@
             <li>Make sure everyone pays equal</li>
             <li>Have a go-to area for photos</li>
           </ol>
+          <h3>FRUSTRATIONS</h3>
+          <ol>
+            <li>Friends not paying equally for an event</li>
+            <li>Receving dozens of texts with pictures after a weekend</li>
+          </ol>
+          <p>“It can be a challenge balancing social and professional life, but I guess that’s part of the fun of being young!”</p>
+        </div>
+        <div class="persona">
+          <h3>GRETCHEN</h3>
+          <img src="img/Event Drawer/Gretchen.jpg">
+          <ul class="persona-intro">
+            <li>Middle-aged empty nester</li>
+            <li>54 years old</li>
+            <li>San Diego, CA</li>
+          </ul>
+          <p>Gretchen has been a dental hygienist for 30 years. She has three children who are out of the house.  She and her husband have downsized to a condo, and Gretchen has found the adjustment difficult.  She also has a lot of free time.  Gretchen and her husband can afford a few vacations per year.</p>
+          <h3>MOTIVATIONS</h3>
+          <p>Gretchen has been adjusting to life without kids at home.  In order to take her mind off of it, she plans more vacations with friends.  Gretchen believes an app could be useful in keeping track of relevant documents between friends.  Right now, there is a lot of back-and-forth email, which can get overwhelming.  </p>
+          <h3>GOALS</h3>
+          <ol>
+            <li>Have all vacation documents all in one place</li>
+            <li>Easily share with newcomers who decide to join the trip</li>
+            <li>Post photos to remember the vacation</li>
+          </ol>
+          <h3>FRUSTRATIONS</h3>
+          <ol>
+            <li>Receiving too many emails when planning a vacation</li>
+            <li>Having to text her friends to get photos to show her friends</li>
+          </ol>
+          <p>“I miss my kids!  But I do love all this free time.”</p>
         </div>
       </section>
+      <section>
+        <h3>STORIES & FLOWS</h3>
+        <p>The most important user stories would allow for a single space to create, store, and share all event-related information.  They would also allow for tracking attendance.  Below are some examples of high priority user stories.
+        </p>
+        <ul class="user-flows">
+          <li>Sign Up</li>
+          <li>Create a new event folder or “drawer”</li>
+          <li>Invite other users to view or edit a folder</li>
+          <li>Accept a shared folder</li>
+          <li>Create, view, and edit an attendance list</li>
+        </ul>
+        <p>I turned user stories into detailed user flows which outlined individual pages needed to complete the most important tasks.
+        </p>
+        <img src="img/Event Drawer/Example Flow Mobile.jpg">
+        <button type="button"><a href="">USER FLOWS</a></button>
+      </section>
+      <section>
+        <img src="img/Event Drawer/Wireframes Sketch Mobile.jpg">
+        <h3>WIREFRAMES</h3>
+        <p>Informed by my user flows, I sketched wireframes of each page, and I transferred these sketches to Figma.  Not every Figma component matched the sketches identically, and that was okay.  There is a practical gap between what I put on paper and the grid system used on Figma.  Using a grid kept components consistently sized and sped up the process significantly.
+        </p>
+        <img src="img/Event Drawer/Wireframe1.jpg">
+        <img src="img/Event Drawer/Wireframe2.jpg">
+        <img src="img/Event Drawer/Wireframe3.jpg">
+        <img src="img/Event Drawer/Wireframe4.jpg">
+        <button type="button"><a href="">WIREFRAME<br>PROTOTYPE</a></button>
+      </section>
+      <section>
+        <h3>USER TESTING ROUND 1</h3>
+        <p>I exhausted the ability to improve the wireframes through my own eyes.  I needed the help of real users to discover more improvements.  During testing, I had each user complete three tasks:
+        </p>
+        <ol>
+          <li>Sign up</li>
+          <li>Create a new event folder and create one document within it</li>
+          <li>Move one document from one event folder to another</li>
+        </ol>
+        <p>Overall, users were able to complete the tasks.  However, they did offer some suggestions for improvements.
+        </p>
+        <p>Not all buttons were consistently sized, which sometimes confused users.  Was there a difference in importance between the large and small buttons?  Did they all function the same?  I needed to make all buttons uniform.</p>
+        <img src="img/Event Drawer/Button1 Mobile.svg">
+        <img src="img/Event Drawer/Button2 Mobile.svg">
+        <p>When signing up with Google, the users did not know where the verification code would be sent.  I needed to clear this up.</p>
+        <img src="img/Event Drawer/Google1 Mobile.svg">
+        <img src="img/Event Drawer/Google2 Mobile.svg">
+        <p>When moving files from one drawer to another, the “move” button did not stand out clearly to users.  This reminded me that I needed to give the most important elements on the screen priority in the visual hierarchy.  I thought the best way to do this would be with the use of color in my high fidelity mockups.</p>
+        <img src="img/Event Drawer/Move Mobile.svg">
+      </section>
+      <section>
+        <img src="img/Event Drawer/Mind Map Mobile.jpg">
+        <h3>BRANDING AND VISUAL DESIGN</h3>
+        <p>One of the problems users faced when planning events was feeling stressed and overwhelmed.  I wanted to induce a feeling of happiness about the event itself, and not the stress of planning it.  I came up with four core brand adjectives.
+        </p>
+        <ol>
+          <li>Stress-free</li>
+          <li>Homey</li>
+          <li>Comfortable</li>
+          <li>Fun</li>
+        </ol>
+        <p>In line with my brand adjectives, I chose a warm color palette.
+        </p>
+        <img src="img/Event Drawer/Colors Mobile.svg">
+        <p>I was initally torn between two brand typefaces -- Berkshire Swash and Yeseva One.  Berkshire Swash’s curves and movement give off a sense of fun.  Yeseva One still seemed fun, but a bit more readable and sleek.  Preference testing showed me 83% of users preferred Yeseva One.
+        </p>
+        <p id="berkshire-swash">Berkshire Swash</p>
+        <p id="yeseva-one">Yeseva One</p>
+        <p>I chose Lato as my complimentary typeface.  Lato is round enough to appear warm and friendly, but straightforward enough to be readable in large chunks.  Lato’s even line weight compliments Yeseva One’s uneven weight, yet the letter styles such as “a” and “g” remain consistent between the two.
+        </p>
+        <p id="brand-typeface">Brand Typeface</p>
+        <p id="header-level-one">Header Level 1</p>
+        <p id="header-level-two">Header Level 2</p>
+        <p id="header-level-three">Header Level 3</p>
+        <p id="paragraph">This is a paragraph.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p id="link">This is a link</p>
+        <p>For a logo, I thought a drawer could be homey and fun-looking.
+        </p>
+        <img src="img/Event Drawer/Logo Sketch Mobile.jpg">
+        <img src="img/Event Drawer/Logo1 Mobile.svg">
+        <p>When creating hi-fi mockups, I realized my drawer handle was too detailed for a small scale.  I simplified it.
+        </p>
+        <img src="img/Event Drawer/Logo2 Mobile.svg">
+        <p>One of the biggest challenges during the visual design process was the use of color throughout the site.  I began with a mahogany background along with a cream color instead white.
+        </p>
+        <img src="img/Event Drawer/Home1 Mobile.jpg">
+        <p>Through preference testing and discussions with the design team, I came to the conclusion that my background was too dark.  It took focus away from the most important elements on the page, such as buttons and text.  In addition, the cream color looked dated.  I went with white instead to give the site a cleaner and more modern feel.  I also lightened the drawers.
+        </p>
+        <img src="img/Event Drawer/Home2 Mobile.jpg">
+      </section>
+      <section>
+        <h3>USER TESTING ROUND 2</h3>
+        <p>In my second round of usability tests, I had users complete 6 tasks.
+        </p>
+        <ol>
+          <li>Sign up</li>
+          <li>Create a new event folder or “drawer”</li>
+          <li>Create a photo album and upload a photo</li>
+          <li>View an event’s attendance list</li>
+          <li>Navigate to the inbox and accept an invitation</li>
+          <li>Sign out</li>
+        </ol>
+        <p>I also had users comment on the brand and feel of the site.  How did it make them feel?  What was the brand conveying to them?  Overall, users were able to complete each of the tasks.  They also said the brand felt fun and friendly.  However, the site was far from perfect.  Users were able to point to improvements that I may not have otherwise noticed.
+        </p>
+        <p>Input fields were inconsistent and too tall.  This confused users because they were unsure if some fields were buttons or not.  I needed to shorten the input fields and make them uniform.
+        </p>
+        <img src="img/Event Drawer/Input1 Mobile.svg">
+        <img src="img/Event Drawer/Input2 Mobile.svg">
+        <p>On the inbox page, users the messages looked like buttons instead of mail items in an inbox.  Also, why were some red and some white? (My idea was to have unread messages be red).
+        </p>
+        <img src="img/Event Drawer/InboxOld Mobile.jpg">
+        <p>I squared off these elements and reduced their vertical spacing to make them appear more like an email inbox.  I also made them white and gray instead of red in order to distinguish them from buttons.  I added icons to more clearly display which messages were read and unread.
+        </p>
+        <img src="img/Event Drawer/InboxNew Mobile.jpg">
+      </section>
+      <section id="final-thoughts-event-drawer">
+        <h3>FINAL THOUGHTS</h3>
+        <p>I had a lot of fun designing a product prototype that could help users with the stress of event planning.  Keeping users in mind throughout the entire process was essential.  Without their input, I would have missed key improvements on my initial ideas.  By listening to my users problems and concerns, I was ultimately able to create something that would be effective in making their lives a little bit easier.</p>
+      </section>
+      <img src="img/Event Drawer/EndMockup Mobile.jpg">
     </div>
-  </body>
 
-  <footer>
-    <nav>
-      <ul>
-        <li class="footer-logo"><a href="index.html"><img src="svg/Logo Footer Mobile.svg"></a></li>
-        <li class="email-footer">jackgumina@gmail.com</li>
-        <li class="linkedin"><img src="svg/linkedin Mobile.svg"></li>
-        <li class="GitHub"><img src="svg/GitHub Mobile.svg"></li>
-      </ul>
-    </nav>
-  </footer>
+    <footer>
+      <img src="img/Footer Line.svg">
+      <nav>
+        <ul>
+          <li class="footer-logo"><a href="index.html"><img src="img/Logo Footer Mobile.svg"></a></li>
+          <li class="linkedin"><img src="img/linkedin Mobile.svg"></li>
+          <li class="GitHub"><img src="img/GitHub Mobile.svg"></li>
+        </ul>
+      </nav>
+    </footer>
 </html>
