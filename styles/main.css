@@ -1,47 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
 body {
+  background-color: white;
   padding-bottom: 5rem;
 }
 
-header {
-  height: 60vh;
-  justify-content: center;
-  text-align: center;
-}
-
 h1 {
-  font-weight: bold;
-  color: rgba(214, 0, 0, 0.9);
+  font-size: 33px;
 }
 
-.slogan {
-  font-weight: lighter;
-  color: rgba(214, 0, 0, 0.8);
+h3 {
+  font-size: 2.1rem;
+}
+
+p {
   font-size: 1.6rem;
+  line-height: 1.672;
 }
 
-main {
-  max-width: 900px;
+p.intro-msg {
+  font-size: 1.9rem;
 }
 
-.project-description {
-  padding-left: 0;
+p.project-intro {
+  font-size: 1.9rem;
 }
 
-.project img {
-  width: 100%;
+.container {
+  background-color: white;
+  margin: 0 auto;
+  width: 50rem;
 }
 
-footer.mdl-mini-footer {
-  bottom: 0;
-  padding: 0.5rem;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
+section {
+  background-color: white;
+  color: #000;
+  margin-top: 1rem;
+  padding: 10rem 1rem;
 }
 
-footer.mdl-mini-footer > ul {
-  margin: auto;
+ol {
+  font-size: 1.6rem;
+  list-style-type: decimal;
+  line-height: 1.672;
+}
+
+ol.big-list {
   font-size: 2rem;
+  margin-top: 2rem;
 }
 
 @media screen and (max-width: 1024px) {
