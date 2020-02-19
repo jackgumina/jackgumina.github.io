@@ -10,44 +10,47 @@
     <link href="https://fonts.googleapis.com/css?family=Lora|Work+Sans:300&display=swap" rel="stylesheet">
   </head>
 
+
+  <header>
+    <nav>
+      <div class="container">
+      <ul class="top-nav">
+        <li class="top-nav-logo"><a href="index.html"><img src="img/LogoNavBarMobile.svg" alt="Home"></a></li>
+        <li class="nav-link"><a class="top-nav-link" href="">CONTACT</a></li>
+        <li class="nav-link-1"><a class="top-nav-link" href="about.html">ABOUT</a></li>
+        <li class="nav-link-1"><a class="top-nav-link" href="index.html">WORK</a></li>
+      </ul>
+    </div>
+      <hr class="top-nav-line">
+    </nav>
+  </header>
+
   <div class="container">
-    <header>
-      <nav>
-        <ul class="top-nav">
-          <li class="top-nav-logo"><a href="index.html"><img src="img/LogoNavBarMobile.svg" alt="Home"></a></li>
-          <li class="nav-link"><a href="">CONTACT</a></li>
-          <li class="nav-link"><a href="about.html">ABOUT</a></li>
-          <li class="nav-link"><a href="index.html">WORK</a></li>
-        </ul>
-      </nav>
-    </header>
-
-
     <body>
           <!-- hero unit -->
-          <section class="hero">
+          <section class="home-page-hero">
             <img id="portfolio-logo" src="img/PortfolioLogoMobile.svg" alt="Portfolio logo">
-            <h1>HELLO</h1>
-            <img src="img/HelloOvalMobile.svg" alt="Oval graphic">
+            <img id="hello" src="img/Hello.svg" alt="Hello">
             <p class="intro-msg">Thanks for being here.  My name is Jack Gumina (pronounced goo-mee-nah).  I’m a designer who codes based in Minneapolis.  I hope you’ll check out some of my work.</p>
+            <hr>
           </section>
           <!-- projects -->
-          <section>
+          <section id="event-drawer-section">
             <img id="project-event-drawer" src="img/EventDrawer/HomeMobile.jpg" alt="Event Drawer">
-            <h3>EVENT DRAWER</h3>
-            <p>A cloud storage website tailored to event planning</p>
-            <button type="button" onclick="window.location.href='eventdrawer.html';">VIEW CASE STUDY</button>
+            <h3 class="home-project-heading">EVENT DRAWER</h3>
+            <p class="home-project-description">A cloud storage website tailored to event planning</p>
+            <button class="home-page-button" type="button" onclick="window.location.href='eventdrawer.html';">VIEW CASE STUDY</button>
           </section>
     </body>
 
 
     <footer>
-      <img src="img/FooterLine.svg" alt="Footer line">
+      <hr>
       <nav>
         <ul>
           <li class="footer-logo"><a href="index.html"><img src="img/LogoFooterMobile.svg" alt="Footer logo"></a></li>
+          <li class="github"><img src="img/GitHubMobile.svg" alt="GitHub logo"></li>
           <li class="linkedin"><img src="img/linkedinMobile.svg" alt="LinkedIn logo"></li>
-          <li class="GitHub"><img src="img/GitHubMobile.svg" alt="GitHub logo"></li>
         </ul>
       </nav>
     </footer>

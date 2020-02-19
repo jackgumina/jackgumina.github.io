@@ -6,9 +6,52 @@ html {
   font-size: 10px;
 }
 
+#event-drawer-section {
+  padding-top: 4rem;
+}
+
 body {
   background-color: white;
   padding-bottom: 5rem;
+}
+
+button {
+  background-color: white;
+  border-color: #845c44; /* tan */
+  border-radius: 1rem;
+  color: #845c44;
+  cursor: pointer;
+  display: block;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: .1em;
+  margin: 0 auto;
+  padding: 1.8rem 0;
+  transition: 0.3s;
+  width: 20.3rem;
+}
+
+button:hover {
+  background-color: #845c44;
+  color: white;
+}
+
+/* default container format (mobile) uses percentage width */
+.container {
+  background-color: white;
+  margin: auto;
+  width: 83%;
+}
+
+.footer-logo {
+  display: inline-block;
+  padding-top: 2rem;
+}
+
+.github {
+  display: inline-block;
+  float: right;
+  padding-top: 2rem;
 }
 
 h1 {
@@ -21,6 +64,83 @@ h3 {
   font-size: 2.1rem;
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 0.12em;
+  padding-bottom: .8rem;
+}
+
+#hello {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 43%;
+  padding-bottom: 1.6rem;
+}
+
+.home-page-hero {
+  padding-top: 3.6rem;
+}
+
+.hero-event-drawer-roles {
+  background-color: #DCDADA;
+}
+
+.home-project-description {
+  text-align: center;
+  padding-bottom: 2.8rem;
+}
+
+.home-project-heading {
+  text-align: center;
+}
+
+hr {
+  border-top: #e4e4e4; /* light grey */
+  margin-top: 4rem;
+}
+
+.intro-msg {
+  text-align: center;
+}
+
+#line {
+  display: inline-block;
+  padding-top: 4rem;
+}
+
+.linkedin {
+  display: inline-block;
+  float: right;
+  padding-top: 2rem;
+  padding-right: 2.4rem;
+}
+
+.nav-link {
+  display: inline-block;
+  float: right;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: .12em;
+  padding-top: 2.8rem;
+}
+
+.nav-link-1 {
+  display: inline-block;
+  float: right;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: .12em;
+  padding-top: 2.8rem;
+  padding-right: 2.2rem;
+}
+
+ol {
+  font-size: 1.6rem;
+  list-style-type: decimal;
+  line-height: 1.672;
+}
+
+ol.big-list {
+  font-size: 2rem;
+  margin-top: 2rem;
 }
 
 p {
@@ -46,70 +166,98 @@ p.project-intro {
   width: 100%;
 }
 
+#portfolio-logo {
+  padding-bottom: 5.2rem;
+}
+
+#project-event-drawer {
+  padding-bottom: 2rem;
+}
+
 section {
   background-color: white;
   color: #000;
   margin-top: 1rem;
-  padding: 6rem 1rem;
+  padding: 6rem 0 0 0;
 }
 
-.hero-event-drawer-roles {
-  background-color: #DCDADA;
-}
-
-ol {
-  font-size: 1.6rem;
-  list-style-type: decimal;
-  line-height: 1.672;
-}
-
-ol.big-list {
-  font-size: 2rem;
+.top-nav-line {
   margin-top: 2rem;
 }
 
+.top-nav-link {
+  color: #000;
+  text-decoration: none;
+}
+
 .top-nav-logo {
-  display: inline;
+  display: inline-block;
+  padding-top: 2rem;
 }
 
-.nav-link {
-  display: inline;
-  float: right;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 1.6rem;
-  letter-spacing: .12em;
-  padding-top: 3.6rem;
-}
-
-/* default container format (mobile) uses percentage width */
-.container {
-  background-color: white;
-  margin: auto;
-  width: 83%;
-}
-
-/* media query customizes container width for tablet size */
-@media screen and (min-width: 768px) {
+/* media query customizes container width for larger devices */
+@media screen and (min-width: 550px) {
   .container {
-    width: 70rem;
+    width: 71%;
   }
-  #project-event-drawer {
-    width: 68%;
-  }
-  #portfolio-logo {
-    width: 50%;
-  }
-}
 
-/* media query customizes container width for desktop/laptop */
-@media screen and (min-width: 1000px) {
-  .container {
-    width: 98rem;
+  .footer-logo {
+    width: 4%;
+    padding-top: 3.2rem;
   }
+
+  .github {
+    padding-top: 3.4rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+    padding-bottom: .8rem;
+  }
+
+  #hello {
+    width: 18.8rem;
+  }
+
+  hr {
+    margin-top: 7.2rem;
+  }
+
+  .intro-msg {
+    font-size: 2.2rem;
+    width: 64.3%;
+    margin: auto;
+  }
+
+  .linkedin {
+    padding-top: 3.2rem;
+    padding-right: 4.4rem;
+  }
+
+  .top-nav-line {
+    margin-top: 2.8rem;
+  }
+
+  .top-nav-logo {
+    padding-top: 2.8rem;
+  }
+
+  .nav-link {
+    padding-top: 3.6rem;
+  }
+
+  .nav-link-1 {
+    padding-right: 4.8rem;
+    padding-top: 3.6rem;
+  }
+
   #project-event-drawer {
-    width: 45%;
+    padding-top: 2rem;
+    padding-bottom: 3.2rem;
+    width: 56%;
   }
+
   #portfolio-logo {
-    width: 30%;
+    width: 38rem;
   }
 }
