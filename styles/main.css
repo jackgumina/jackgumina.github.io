@@ -129,6 +129,32 @@ button:hover {
   display: none;
 }
 
+#contact-footer-line {
+  margin-top: 0;
+}
+
+.contact-form-div {
+  background-color: #DCDADA;
+  display: block;
+  margin: auto;
+  padding: 3.4rem 0 .2rem 0;
+  text-align: center;
+}
+
+#contact-form-id {
+  background-color: #DCDADA;
+  width: 75%;
+}
+
+#contact-p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 52.1rem;
+  padding-bottom: 3.2rem;
+  text-align: center;
+}
+
 /* default container format (mobile) uses percentage width */
 .container {
   background-color: white;
@@ -145,7 +171,7 @@ button:hover {
   padding-top: 3.2rem;
 }
 
-#evd-brand-typeface {
+#evd-brand-typeface-1 {
   font-family: 'Yeseva One', serif;
   font-size: 3.6rem;
   padding-top: 2rem;
@@ -372,6 +398,10 @@ button:hover {
   padding-top: 2rem;
 }
 
+#event-drawer-survey-tablet {
+  display: none;
+}
+
 #event-drawer-top-img {
   margin-bottom: -.2rem;
   width: 100%;
@@ -395,6 +425,66 @@ button:hover {
   display: inline-block;
 }
 
+form {
+  margin-bottom: 3.2rem;
+}
+
+.form-control {
+  background-color: #DCDADA;
+  border: 0;
+  border-bottom: 1px solid gray;
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+  outline: 0;
+  margin-bottom: 2.8rem;
+  width: 100%;
+}
+
+.form-control-message {
+  background-color: white;
+  border: 1px solid gray;
+  border-bottom: 1px solid gray;
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+  height: 12rem;
+  outline: 0;
+  padding: .8rem .8rem 0 .8rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.form-control-submit {
+  background-color: #DCDADA;
+  border-color: #845c44; /* tan */
+  border-radius: 1rem;
+  color: #845c44;
+  cursor: pointer;
+  display: block;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+  height: 4.8rem;
+  letter-spacing: .1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  padding: 0;
+  transition: 0.3s;
+  width: 18.3rem;
+}
+
+#form-control-message {
+  border: 1px solid gray;
+  border-bottom: 1px solid gray;
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+  outline: 1px;
+  margin-bottom: 2rem;
+  width: 80%;
+}
+
 #get-in-touch {
   padding-bottom: 2rem;
   padding-top: 2.2rem;
@@ -411,6 +501,13 @@ h1 {
   font-size: 3rem;
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 0.15em;
+}
+
+h3.contact-heading {
+  font-size: 2.1rem;
+  letter-spacing: 0.12em;
+  padding: 3.2rem 0 .8rem 0;
+  text-align: center;
 }
 
 h3 {
@@ -494,7 +591,7 @@ hr {
   font-size: 1.6rem;
   letter-spacing: .12em;
   padding-top: 2.8rem;
-  padding-right: 2.2rem;
+  padding-right: 2rem;
 }
 
 ol {
@@ -830,6 +927,22 @@ ul > li {
     text-align: center;
   }
 
+  #contact-footer-line {
+    margin-top: 4rem;
+  }
+
+  .contact-form-div {
+    background-color: white;
+    padding: 0;
+  }
+
+  #contact-form-id {
+    background-color: #DCDADA;
+    max-width: 40rem;
+    padding-bottom: .2rem;
+    width: 60%;
+  }
+
   .container {
     width: 75%;
   }
@@ -1116,6 +1229,31 @@ ul > li {
     width: 3.8rem;
   }
 
+  .form-control {
+    margin-bottom: 2.8rem;
+    width: 80%;
+  }
+
+  #form-control-1 {
+    margin-bottom: 2.8rem;
+    padding-top: 2.4rem;
+    width: 80%;
+  }
+
+  .form-control-message {
+    background-color: white;
+    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.6rem;
+    height: 12rem;
+    outline: 0;
+    padding: .8rem .8rem 0 .8rem;
+    margin-bottom: 2rem;
+    width: 80%;
+  }
+
   .github {
     padding-top: 3.4rem;
   }
@@ -1133,12 +1271,23 @@ ul > li {
     padding-bottom: .8rem;
   }
 
+  h3.contact-heading {
+    font-size: 3rem;
+    letter-spacing: 0.12em;
+    padding: 3.2rem 0 .8rem 0;
+    text-align: center;
+  }
+
   #hello {
     width: 18.8rem;
   }
 
   hr {
     margin-top: 7.2rem;
+  }
+
+  .hero-case-study {
+    padding-top: 2.2rem;
   }
 
   .intro-msg {
@@ -1152,9 +1301,23 @@ ul > li {
     padding-right: 4.4rem;
   }
 
+  .nav-header {
+    padding-bottom: 2.7rem;
+  }
+
+  .nav-link {
+    padding-top: 3.7rem;
+  }
+
+  .nav-link-1 {
+    padding-right: 4.8rem;
+    padding-top: 3.7rem;
+  }
+
   ol.evd-big-list {
     background-color: #F3EAEA; /* light red */
     border: .1rem solid #82321D;
+    font-size: 2.3rem;
     margin: 3.6rem 0 4.8rem 0;
     padding-bottom: 0rem;
     padding-left: 4.4rem;
@@ -1251,19 +1414,6 @@ ul > li {
     width: 100%;
   }
 
-  .nav-header {
-    padding-bottom: 2.7rem;
-  }
-
-  .nav-link {
-    padding-top: 3.7rem;
-  }
-
-  .nav-link-1 {
-    padding-right: 4.8rem;
-    padding-top: 3.7rem;
-  }
-
   #project-event-drawer {
     padding-top: 2rem;
     padding-bottom: 3.2rem;
@@ -1316,4 +1466,285 @@ ul > li {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1025px)
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  #about-headshot {
+    width: 40%;
+  }
+
+  #contact-footer-line {
+    margin-top: 4rem;
+  }
+
+  .contact-form-div {
+    background-color: white;
+    padding: 0;
+  }
+
+  #contact-form-id {
+    background-color: #DCDADA;
+    max-width: 40rem;
+    padding-bottom: .2rem;
+    width: 60%;
+  }
+
+  #evd-brand-typeface {
+    padding: 0 0 0rem 0;
+  }
+
+  #evd-buttons {
+    padding: 1.6rem 0;
+  }
+
+  #evd-inputs {
+    padding: 2.4rem 0;
+  }
+
+  #evd-wireframe-img {
+    margin: auto;
+    width: 75%;
+  }
+
+  #event-drawer-colors-mobile {
+    display: none;
+  }
+
+  #event-drawer-colors-large {
+    display: block;
+    padding: 4rem 0;
+    width: 100%;
+  }
+
+  #event-drawer-comp {
+    display: block;
+    margin: auto;
+  }
+
+  #event-drawer-google {
+    margin: auto;
+    padding: 4.4rem 0;
+    width: 50%;
+  }
+
+  #event-drawer-inbox-new {
+    margin: auto;
+    padding: 3.6rem 0 0 0;
+    width: 75%;
+  }
+
+  #event-drawer-inbox-old {
+    margin: auto;
+    padding: 3.6rem 0;
+    width: 75%;
+  }
+
+  #event-drawer-heading-large {
+    display: block;
+    width: 35%;
+  }
+
+  #event-drawer-heading-large-div {
+    background-image: url("../img/EventDrawer/EventDrawerHeroImage.jpg");
+    background-size: 100%;
+    padding-bottom: 45%;
+    padding-left: 3.2rem;
+    padding-top: 3.2rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  #event-drawer-heading-small {
+    display: none;
+  }
+
+  #event-drawer-home-1 {
+    margin: auto;
+    padding: 3.6rem 0;
+    width: 75%;
+  }
+
+  #event-drawer-home-2 {
+    margin: auto;
+    padding: 3.6rem 0 0 0;
+    width: 75%;
+  }
+
+  #event-drawer-logo-1-large {
+    display: block;
+    margin: auto;
+    padding: 2rem 0 4rem 0;
+    width: 75%;
+  }
+
+  #event-drawer-logo-1-mobile {
+    display: none;
+  }
+
+  #event-drawer-logo-2-large {
+    display: block;
+    margin: auto;
+    padding: 4rem 0;
+    width: 75%;
+  }
+
+  #event-drawer-logo-2-mobile {
+    display: none;
+  }
+
+  #event-drawer-logo-sketch {
+    display: block;
+    margin: auto;
+    width: 75%;
+  }
+
+  #event-drawer-move-buttons {
+    padding-bottom: 3.2rem;
+    width: 40%;
+  }
+
+  #event-drawer-survey {
+    display: none;
+  }
+
+  #event-drawer-survey-tablet {
+    display: block;
+    margin: auto;
+    padding: 1rem 0 4.8rem 0;
+    width: 100%;
+  }
+
+  #event-drawer-top-img {
+    display: none;
+  }
+
+  .event-drawer-solution-img {
+    width: 75%;
+  }
+
+  footer {
+    margin-bottom: 2.4rem;
+  }
+
+  .form-control {
+    margin-bottom: 2.8rem;
+    width: 80%;
+  }
+
+  #form-control-1 {
+    margin-bottom: 2.8rem;
+    padding-top: 2.4rem;
+    width: 80%;
+  }
+
+  .form-control-message {
+    background-color: white;
+    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.6rem;
+    height: 12rem;
+    outline: 0;
+    padding: .8rem .8rem 0 .8rem;
+    margin-bottom: 2rem;
+    width: 80%;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  h3.contact-heading {
+    font-size: 3rem;
+    letter-spacing: 0.12em;
+    padding: 3.2rem 0 .8rem 0;
+    text-align: center;
+  }
+
+  #hello {
+    width: 28%;
+  }
+
+  .hero-case-study {
+    margin-top: -.8rem;
+    padding-top: 0;
+  }
+
+  .linkedin {
+    padding-right: 3.8rem;
+  }
+
+  .nav-link-1 {
+    padding-right: 2.8rem;
+  }
+
+  ol.evd-big-list {
+    background-color: #F3EAEA; /* light red */
+    border: .1rem solid #82321D;
+    margin: 3.6rem 0 4.8rem 0;
+    padding-bottom: 0rem;
+    padding-left: 4.4rem;
+    padding-right: 2rem;
+    width: 100%;
+  }
+
+  .p-case-study {
+    /* the min width will stay inside the container but allow for ideal line lenghts.*/
+    max-width: 52.1rem;
+    width: 100%;
+  }
+
+  p.project-intro {
+    background-color: #DCDADA;
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 76rem;
+    padding: 1.2rem 0 4rem 0;
+    text-align: center;
+    width: 80%;
+  }
+
+  .persona {
+    margin: auto;
+    margin-bottom: 3.2rem;
+    width: 80%;
+  }
+
+  .persona-img {
+    width: 35%;
+  }
+
+  #portfolio-logo {
+    width: 50%;
+  }
+
+  #project-event-drawer {
+    width: 62%;
+  }
+
+  .user-flows {
+    background-color: #F3EAEA; /* light red */
+    border: .1rem solid #82321D;
+    font-size: 2rem;
+    margin: 3.6rem 0 4.8rem 0;
+    padding: .2rem 0 2.8rem 0;
+    width: 100%;
+  }
+
+  #sample-user-flow {
+    padding: 4.8rem 0;
+  }
+
+  .solution {
+    padding-bottom: 3.6rem;
+  }
+
+  .solution-img {
+    padding: 4rem 0;
+  }
+
+  .stories-flows {
+    padding-top: 1rem;
+  }
+}

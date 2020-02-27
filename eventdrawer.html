@@ -18,7 +18,7 @@
       <div class="container">
         <ul class="top-nav">
           <li class="top-nav-logo"><a href="index.html"><img class="top-nav-logo-img" src="img/LogoNavBarMobile.svg" alt="Home"></a></li>
-          <li class="nav-link"><a class="top-nav-link" href="">CONTACT</a></li>
+          <li class="nav-link"><a class="top-nav-link" href="contact.html">CONTACT</a></li>
           <li class="nav-link-1"><a class="top-nav-link" href="about.html">ABOUT</a></li>
           <li class="nav-link-1"><a class="top-nav-link" href="index.html">WORK</a></li>
         </ul>
@@ -41,7 +41,7 @@
       <section class="project-intro">
         <div class="container-intro">
           <p class="project-intro">People use cloud storage products to help plan events.  Google Drive to create a guestlist, Pinterest to share ideas, Dropbox to send an important PDF.  Why not use a single product to perform all of these tasks?  Event Drawer aims to be the one-stop-shop for event planning needs.</p>
-          <button class="button-event-drawer" id="evd-view-prototype" type="button" onclick="window.location.href='https://invis.io/DQVH4A7V6YC';">VIEW PROTOTYPE</button>
+          <button class="button-event-drawer" id="evd-view-prototype" type="button" onclick="window.open('https://invis.io/DQVH4A7V6YC', '_blank')">VIEW PROTOTYPE</button>
         </div>
       </section>
       <!-- This section for small devices -->
@@ -119,17 +119,18 @@
         <!-- This div for smaller devices -->
         <div id="evd-survey-results-small">
           <img id="event-drawer-survey" src="img/EventDrawer/SurveyResultsMobile.svg" alt="Survey results graph">
-          <button class="button-event-drawer" type="button">VIEW SURVEY</button>
-          <p id="survey">Over 60% of respondents said they used cloud storage products to assist with event planning.  The two biggest problems users faced when planning events were keeping track of attendance levels and feeling generally disorganized and overwhelmed.  This survey informed me to create a product that would:</p>
+          <img id="event-drawer-survey-tablet" src="img/EventDrawer/SurveyResultsLarge.svg" alt="Survey results graph">
+          <button class="button-event-drawer" type="button" onclick="window.open('https://forms.gle/PiGCSuvtHmF2c9Ju7', '_blank')">VIEW SURVEY</button>
+          <p class="p-case-study" id="survey">Over 60% of respondents said they used cloud storage products to assist with event planning.  The two biggest problems users faced when planning events were keeping track of attendance levels and feeling generally disorganized and overwhelmed.  This survey informed me to create a product that would:</p>
           <ol class="evd-big-list">
             <li>Allow users to track attendance</li>
             <li>Keep all event-related info in a single, easy-to-access space</li>
           </ol>
         </div>
-        <!-- Same content as prior div, but reordered for larger devices -->
+        <!-- Same content as prior div, but reordered for desktop -->
         <div id="evd-survey-results-large">
           <div id="evd-survey-results-large-text">
-            <p>Over 60% of respondents said they used cloud storage products to assist with event planning.  The two biggest problems users faced when planning events were keeping track of attendance levels and feeling generally disorganized and overwhelmed.  This survey informed me to create a product that would:</p>
+            <p class="p-case-study">Over 60% of respondents said they used cloud storage products to assist with event planning.  The two biggest problems users faced when planning events were keeping track of attendance levels and feeling generally disorganized and overwhelmed.  This survey informed me to create a product that would:</p>
             <ol id="evd-survey-list">
               <li>Allow users to track attendance</li>
               <li>Keep all event-related info in a single, easy-to-access space</li>
@@ -143,16 +144,16 @@
         <!-- Begin competitive analysis -->
         <!-- First div for small devices -->
         <div id="evd-comp-small">
-          <p id="evd-comp-small-text">I analyzed Google Drive, Dropbox, and Pinterest, which all allow for easy file creation and collaboration.  However, users would have to get creative in their use of each product to effectively use them as event planners.  Why not provide a product that was specifically tailored to this purpose?</p>
+          <p class="p-case-study"id="evd-comp-small-text">I analyzed Google Drive, Dropbox, and Pinterest, which all allow for easy file creation and collaboration.  However, users would have to get creative in their use of each product to effectively use them as event planners.  Why not provide a product that was specifically tailored to this purpose?</p>
           <img id="event-drawer-comp" src="img/EventDrawer/CompAnalysis.svg" alt="Competitor logos">
         </div>
-        <button class="button-event-drawer" id="evd-comp-button-small" type="button">VIEW ANALYSIS</button>
+        <button class="button-event-drawer" id="evd-comp-button-small" type="button" onclick="window.open('img/EventDrawer/EventDrawerCompetitiveAnalysis.pdf', '_blank')">VIEW ANALYSIS</button>
         <!-- reorder content to allow for CSS grid design for large devices -->
         <div id="evd-comp-large">
           <img id="evd-comp-large-img" src="img/EventDrawer/CompAnalysis.svg" alt="Competitor logos">
           <p id="evd-comp-large-text">I analyzed Google Drive, Dropbox, and Pinterest, which all allow for easy file creation and collaboration.  However, users would have to get creative in their use of each product to effectively use them as event planners.  Why not provide a product that was specifically tailored to this purpose?</p>
         </div>
-        <button class="button-event-drawer" id="evd-comp-button-large" type="button">VIEW ANALYSIS</button>
+        <button class="button-event-drawer" id="evd-comp-button-large" type="button" onclick="window.open('img/EventDrawer/EventDrawerCompetitiveAnalysis.pdf', '_blank')">VIEW ANALYSIS</button>
 
         <!-- PERSONAS -->
         <p id="personas-intro">I created the following user personas:</p>
@@ -229,7 +230,7 @@
         <p class="p-case-study">I turned user stories into detailed user flows which outlined individual pages needed to complete the most important tasks.
         </p>
         <img id="sample-user-flow" src="img/EventDrawer/ExampleFlow.svg" alt="Sample user flow">
-        <button class="button-event-drawer" type="button">USER FLOWS</button>
+        <button class="button-event-drawer" type="button" onclick="window.open('img/EventDrawer/EventDrawerUserFlows.pdf', '_blank')">USER FLOWS</button>
       </section>
 
       <!-- Wireframes start here with an image of a sketch -->
@@ -248,7 +249,7 @@
             <img class="wireframe-img" src="img/EventDrawer/Wireframe3.jpg" alt="Wireframe example">
             <img class="wireframe-img" src="img/EventDrawer/Wireframe4.jpg" alt="Wireframe example">
           </div>
-          <button class="button-event-drawer" id="wireframe-prototype" type="button">WIREFRAME<br>PROTOTYPE</button>
+          <button class="button-event-drawer" id="wireframe-prototype" type="button" onclick="window.open('https://invis.io/Y2UEJZJUMNA', '_blank')">WIREFRAME<br>PROTOTYPE</button>
         </div>
       </section>
     <div class="container">
@@ -264,7 +265,7 @@
         <p class="p-case-study">Overall, users were able to complete the tasks.  However, they did offer some suggestions for improvements.<br><br></p>
         <div id="evd-buttons-size">
           <p class="p-case-study">Not all buttons were consistently sized, which sometimes confused users.  Was there a difference in importance between the large and small buttons?  Did they all function the same?  I needed to make all buttons uniform.</p>
-          <div>
+          <div id="evd-buttons">
             <img class="event-drawer-button" src="img/EventDrawer/Button1Mobile.svg" alt="Button">
             <img class="event-drawer-button" id="final-button" src="img/EventDrawer/Button2Mobile.svg" alt="Button">
           </div>
@@ -311,11 +312,11 @@
           </div>
           <p class="p-case-study">I chose Lato as my complimentary typeface.  Lato is round enough to appear warm and friendly, but straightforward enough to be readable in large chunks.  Lato’s even line weight compliments Yeseva One’s uneven weight, yet the letter styles such as “a” and “g” remain consistent between the two.
           </p>
-          <p id="evd-brand-typeface">Brand Typeface</p>
+          <p id="evd-brand-typeface-1">Brand Typeface</p>
           <p id="evd-header-one">Header Level 1</p>
           <p id="evd-header-two">Header Level 2</p>
           <p id="evd-header-three">Header Level 3</p>
-          <p id="evd-paragraph">This is a paragraph.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p class="p-case-study" id="evd-paragraph">This is a paragraph.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <p id="evd-link">This is a link</p>
           <p class="p-case-study">For a logo, I thought a drawer could be homey and fun-looking.
           </p>
@@ -352,7 +353,7 @@
         <div id="event-drawer-input-div">
           <p class="p-case-study">Input fields were inconsistent and too tall.  This confused users because they were unsure if some fields were buttons or not.  I needed to shorten the input fields and make them uniform.
           </p>
-          <div class="">
+          <div id="evd-inputs">
             <img id="event-drawer-input-1" src="img/EventDrawer/Input1Mobile.svg" alt="Input field">
             <img id="event-drawer-input-2" src="img/EventDrawer/Input2Mobile.svg" alt="Input field">
           </div>
@@ -380,9 +381,9 @@
       <hr id="event-drawer-hr">
       <nav>
         <ul>
-          <li class="footer-logo"><a href="index.html"><img src="img/LogoFooterMobile.svg" alt="Footer logo"></a></li>
-          <li class="github"><img src="img/GitHubMobile.svg" alt="GitHub logo"></li>
-          <li class="linkedin"><img src="img/linkedinMobile.svg" alt="LinkedIn logo"></li>
+          <li class="footer-logo"><a href="index.html"><img class="footer-logo-img" src="img/LogoFooterMobile.svg" alt="Footer logo"></a></li>
+          <li class="github"><a href="https://github.com/jackgumina" target="_blank"><img src="img/GitHubMobile.svg" alt="GitHub logo"></li>
+          <li class="linkedin"><a href="https://www.linkedin.com/in/jackgumina/" target="_blank"><img src="img/linkedinMobile.svg" alt="LinkedIn logo"></li>
         </ul>
       </nav>
     </div>
