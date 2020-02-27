@@ -27,18 +27,19 @@
   <body>
     <div class="container">
       <h3 class="contact-heading">WANT TO GET IN TOUCH?</h3>
-      <p class="p-case-study" id="contact-p">Just fill out the form below and click submit.  I'll get back to you via email as soon as possible.</p>
+      <p class="p-case-study" id="contact-p">Just fill out the form below and click send.  I'll get back to you via email as soon as possible.</p>
     </div>
+
       <div class="contact-form-div">
         <div class="container" id="contact-form-id">
-          <form id="contact-form" action="php/contact-form-handler.php" method="post">
-            <input name="name" type="text" class="form-control" id="form-control-1" placeholder="Your Name" required>
+          <form id="contact-form" action="http://formspree.io/jackgumina@gmail.com">
+            <input name="_replyto" type="name" class="form-control" id="form-control-1" placeholder="Your Name" required>
             <br>
-            <input name="email" type="text" class="form-control" placeholder="Your Email" required>
+            <input name="email" type="_replyto" class="form-control" placeholder="Your Email" required>
             <br>
-            <textarea name="message" class="form-control-message" placeholder="Type your message here..." row="4" required></textarea>
+            <textarea name="body" class="form-control-message" placeholder="Type your message here..." row="4" required></textarea>
             <br>
-            <input type="submit" class="form-control-submit" value="SUBMIT">
+            <input type="submit" class="form-control-submit" value="SEND">
           </form>
         </div>
       </div>
