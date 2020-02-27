@@ -16,6 +16,10 @@ html {
   display: none;
 }
 
+#about-end-img-tablet {
+  display: none;
+}
+
 #about-footer-line {
   margin-top: 0;
 }
