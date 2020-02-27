@@ -474,6 +474,11 @@ form {
   width: 18.3rem;
 }
 
+.form-control-submit:hover{
+  background-color: #82321D;
+  color: white;
+}
+
 #form-control-message {
   border: 1px solid gray;
   border-bottom: 1px solid gray;
