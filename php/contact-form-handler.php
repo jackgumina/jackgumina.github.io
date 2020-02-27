@@ -2,7 +2,7 @@
 
     $name = $POST['name'];
     $visitor_email = $POST['email'];
-    $message = $POST
+    $message = $GET
 
     $email_from = 'contact@jackgumina.com';
 
