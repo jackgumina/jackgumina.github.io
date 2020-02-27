@@ -4,7 +4,7 @@
     $visitor_email = $POST['email'];
     $message = $POST
 
-    $email_from = 'jackgumina@gmail.com';
+    $email_from = 'contact@jackgumina.com';
 
     $email_subject = "New Portfolio Contact"
 
