@@ -1,0 +1,1673 @@
+* {
+  box-sizing: border-box;
+}
+
+/* This CSS is mobile first.  Until the first media query, all code is written for mobile devices.  Then media queries are used to make adjustments for larger devices. */
+
+html {
+  font-size: 10px;
+}
+
+/* adjusting the image with the dog on the "About" page */
+#about-end-img-mobile {
+  display: block;
+  padding-top: 3.6rem;
+  width: 100%;
+}
+
+/* Making the footer line flush with the last image on the About page */
+#about-footer-line {
+  margin-top: 0;
+}
+
+/* Adjust the headshot image on the About page to be centered and the correct width */
+#about-headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 58.8%;
+}
+
+/* Giving padding to the top of the About page on mobile */
+#about-hero {
+  padding-top: 2.8rem;
+}
+
+/* Top padding on the second large section of text titled "Life Translated into UX" on About page*/
+#about-life-ux {
+  padding-top: 3.2rem;
+}
+
+
+/* Same as above for the first large section of text titled "A Short Story About Me" */
+#about-story {
+  padding-top: 4rem;
+}
+
+/* Sketch of wireframes.  On mobile and tablet, this image is stationary.  On desktop, this will be a parallax scrolling image. */
+#banner-wireframe-evd {
+  background-image: url(../img/EventDrawer/WireframeSketchMobile.jpg);
+  background-size: 100%;
+  height: 12rem;
+  margin-bottom: 2rem;
+}
+
+/* Sketch of mind map.  On mobile and tablet, this image is stationary.  On desktop, this will be a parallax scrolling image. */
+#banner-mind-map-evd {
+  background-image: url(../img/EventDrawer/MindMapSketchMobile.jpg);
+  background-size: 100%;
+  height: 12rem;
+  margin-bottom: 2rem;
+}
+
+/* Displaying the Berkshire Swash font in the Event Drawer case study */
+#berkshire-swash {
+  font-family: 'Berkshire Swash', serif;
+  font-size: 4rem;
+  padding: 2.8rem 0;
+  text-align: center;
+}
+
+/* Giving the body a top margin so the top nav bar does not overlap the body of a page */
+body {
+  background-color: white;
+  margin-top: 8rem;
+  padding-bottom: 5rem;
+}
+
+button {
+  background-color: white;
+  border-color: #845c44; /* tan color */
+  border-radius: 1rem;
+  color: #845c44; /* tan color */
+  cursor: pointer;
+  display: block;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+  height: 4.8rem;
+  letter-spacing: .1em;
+  margin: 0 auto;
+  padding: 0;
+  transition: 0.3s;
+  width: 18.3rem;
+}
+
+button:hover {
+  background-color: #845c44; /* tan color */
+  color: white;
+}
+
+.button-event-drawer {
+  background-color: white;
+  border-color: #82321D; /* maroon */
+  border-radius: 1rem;
+  color: #82321D; /* maroon */
+  cursor: pointer;
+  display: block;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+  height: 4.8rem;
+  letter-spacing: .1em;
+  margin: 0 auto;
+  padding: 0;
+  transition: 0.3s;
+  width: 18.3rem;
+}
+
+.button-event-drawer:hover {
+  background-color: #82321D; /* maroon */
+  color: white;
+}
+
+/* Styling section near top of case study that lists Roles, Tools Used, and Scope */
+.case-study-roles {
+  background-color: #DCDADA; /* grey */
+  margin-top: 0;
+  padding-bottom: 3.2rem;
+  padding-top: 3.2rem;
+}
+
+/* Making the background color of the text grey. */
+#case-study-roles-text {
+  background-color: #DCDADA; /* grey */
+}
+
+/* Styling the contact form on the Contact page.  This allows the grey background to span the entire width of the page, not just within container. */
+.contact-form-div {
+  background-color: #DCDADA; /* grey */
+  display: block;
+  margin: auto;
+  padding: 3.4rem 0 .2rem 0;
+  text-align: center;
+}
+
+/* Giving a grey background to the container within the contact form and setting container width */
+#contact-form-id {
+  background-color: #DCDADA;
+  width: 75%;
+}
+
+/* The short message on the contact page beginning with "Just fill out the form..." */
+#contact-p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 52.1rem;
+  padding-bottom: 3.2rem;
+  text-align: center;
+}
+
+/* default container format (mobile) uses percentage width */
+.container {
+  background-color: white;
+  margin: auto;
+  width: 83%;
+}
+
+/* adjusting background color for case study intro */
+#container-intro {
+  background-color: #DCDADA; /* grey */
+}
+
+/* shortening top padding for the Discovery and Research case study section */
+.discovery-research {
+  padding-top: 3.2rem;
+}
+
+#evd-brand-typeface-1 {
+  font-family: 'Yeseva One', serif;
+  font-size: 3.6rem;
+  padding-top: 2rem;
+}
+
+#evd-comp-button-small {
+  margin-bottom: 3.2rem;
+}
+
+#evd-header-one {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.8rem;
+  padding-bottom: .8rem;
+}
+
+#evd-header-two {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.2rem;
+  padding-bottom: .8rem;
+}
+
+#evd-header-three {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.9rem;
+  padding-bottom: .8rem;
+}
+
+#evd-link {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  text-decoration: underline;
+  font-weight: bold;
+  padding-bottom: 2.8em;
+}
+
+#evd-paragraph {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  padding-bottom: .8rem;
+}
+
+.event-drawer-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2.8rem;
+}
+
+/* color palette event drawer case study */
+#event-drawer-colors-mobile {
+  padding: 3.2rem 0;
+  width: 100%;
+}
+
+/* Event Drawer competitor logos */
+#event-drawer-comp {
+  padding-bottom: 2.8rem;
+  padding-top: 2.8rem;
+}
+
+/* Styling the section */
+#event-drawer-final-thoughts {
+  background-color: #DCDADA;
+  margin-bottom: 0;
+  margin-top: 6rem;
+  padding: 2.8rem 0 3.2rem 0;
+}
+
+/* Styling the container within the section */
+#event-drawer-final-thoughts-div {
+  background-color: #DCDADA;
+}
+
+#event-drawer-final-img {
+  padding: 0;
+  width: 100%;
+}
+
+/* Event Drawer image of Google verification code */
+#event-drawer-google {
+  display: block;
+  padding-bottom: 2.8rem;
+  padding-top: 2.8rem;
+  width: 100%;
+}
+
+/* Heading on top of Event Drawer case study (with red and white box around it) */
+#event-drawer-heading-small {
+  padding-bottom: 3.2rem;
+  padding-top: 0;
+  width: 100%;
+}
+
+/* Home pages when talking about coloring in the case study (under branding section) */
+.event-drawer-home {
+  display: block;
+  padding: 2.4rem 0;
+  width: 100%;
+}
+
+/* making footer line flush with bottom image in Event Drawer case study */
+#event-drawer-hr {
+  margin-top: 0;
+}
+
+#event-drawer-inbox-old {
+  display: block;
+  padding: 2.4rem 0;
+  width: 100%;
+}
+
+#event-drawer-inbox-new {
+  display: block;
+  padding: 2.4rem 0 0 0;
+  width: 100%;
+}
+
+#event-drawer-input-1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 0;
+}
+
+#event-drawer-input-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0 2rem 0;
+}
+
+#event-drawer-logo-sketch {
+  padding-bottom: 2.4rem;
+  padding-top: 2.4rem;
+  width: 100%;
+}
+
+#event-drawer-logo-1-mobile {
+  padding: 2.2rem 0 3.2rem 0;
+  width: 100%;
+}
+
+#event-drawer-logo-2-mobile {
+  padding: 2.4rem 0 3.6rem 0;
+  width: 100%;
+}
+
+#event-drawer-move-buttons {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 2.8rem;
+  width: 75%;
+}
+
+/* section on index.html */
+#event-drawer-section {
+  padding-top: 4rem;
+}
+
+/* container for solution images under "Solution" section in Event Drawer case study */
+#evd-solution-img {
+  background-color: #DCDADA; /* grey */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 3.6rem;
+}
+
+/* The solution images under "Solution" section */
+.event-drawer-solution-img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+/* survey results graph Event Drawer case study */
+#event-drawer-survey {
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+}
+
+#event-drawer-top-img {
+  margin-bottom: -.2rem;
+  width: 100%;
+}
+
+#event-drawer-final-button {
+  padding-bottom: 2.8rem;
+}
+
+/* This specific element needs to float left and has 1.6rem padding instead of 2rem like the other li's in the footer */
+.footer-logo {
+  float: left;
+  padding-top: 1.6rem;
+}
+
+footer nav ul li {
+  display: inline-block;
+  float: right;
+  padding-top: 2rem;
+}
+
+/* form on contact page */
+form {
+  margin-bottom: 3.2rem;
+}
+
+/* class for email and name forms on contact page */
+.form-control {
+  background-color: #DCDADA;
+  border: 0;
+  border-bottom: 1px solid gray;
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+  outline: 0;
+  margin-bottom: 2.8rem;
+  width: 100%;
+}
+
+/* class for message form on contact page */
+.form-control-message {
+  background-color: white;
+  border: 1px solid gray;
+  border-bottom: 1px solid gray;
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+  height: 12rem;
+  outline: 0;
+  padding: .8rem .8rem 0 .8rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+/* class for submit button contact page */
+.form-control-submit {
+  background-color: #DCDADA;
+  border-color: #845c44; /* tan */
+  border-radius: 1rem;
+  color: #845c44;
+  cursor: pointer;
+  display: block;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+  height: 4.8rem;
+  letter-spacing: .1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  padding: 0;
+  transition: 0.3s;
+  width: 18.3rem;
+}
+
+.form-control-submit:hover{
+  background-color: #845c44;
+  color: white;
+}
+
+/* class for "Let's get in touch!" message on About page.  Centers the h3 */
+#get-in-touch {
+  padding-bottom: 2rem;
+  padding-top: 2.2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: 0.15em;
+}
+
+/* heading on contact page, customizes padding and centers text */
+h3.contact-heading {
+  letter-spacing: 0.12em;
+  padding: 3.2rem 0 .8rem 0;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2.1rem;
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: 0.12em;
+  line-height: 167.2%;
+  padding-bottom: .8rem;
+}
+
+header {
+  background-color: white;
+  position: fixed; /* header fixed while scrolling */
+  top: 0;
+  width: 100%;
+}
+
+/* "Hello" svg on index.html */
+#hello {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 43%;
+  padding-bottom: 1.6rem;
+}
+
+.hero-case-study {
+  padding-top: 2.4rem;
+}
+
+.home-page-hero {
+  padding-top: 3.6rem;
+}
+
+/* custom format for <p> that is a project description on index.html */
+.home-project-description {
+  text-align: center;
+  padding-bottom: 2.8rem;
+}
+
+/* custom format for project heading h3 on index.html */
+.home-project-heading {
+  text-align: center;
+}
+
+/* horizontal line for nav bar */
+hr {
+  border-top: 1px #e4e4e4; /* light grey, bottom nav bar */
+  margin-top: 4rem;
+}
+
+.large {
+  display: none;
+}
+
+/* This specific element needs right-padding to create distance from the GitHub logo */
+.linkedin {
+  padding-right: 2.4rem;
+}
+
+/* entire top nav */
+.nav-header {
+  border-bottom: .15rem solid #e4e4e4;
+}
+
+/* "Contact" link in top nav does not need padding-right like the other two links */
+.nav-link {
+  display: inline-block;
+  float: right;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: .12em;
+  padding-top: 2.8rem;
+}
+
+/* "Work" and "About" links in top nav need padding-right */
+.nav-link-1 {
+  display: inline-block;
+  float: right;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: .12em;
+  padding-top: 2.8rem;
+  padding-right: 2rem;
+}
+
+ol {
+  font-size: 1.6rem;
+  font-family: "Lora", serif;
+  line-height: 167.2%;
+  list-style-type: decimal;
+}
+
+/* Event Drawer case study lists with larger font */
+ol.evd-big-list {
+  font-size: 2rem;
+  font-family: "Lora", serif;
+  margin-left: 6.5%;
+  margin-top: 2rem;
+  padding: 1.6rem 0;
+}
+
+ol > li {
+  padding-bottom: 2rem;
+}
+
+/* takes away padding-bottom on the final "Goal" listed under user personas in case studies */
+ol > li.final-goal {
+  padding-bottom: 0;
+}
+
+p {
+  font-size: 1.6rem;
+  font-family: "Lora", serif;
+  line-height: 1.672;
+}
+
+/* user personas in case studies */
+.persona {
+  background-color: #F3EAEA;
+  border-color: #82321D;
+  border-style: solid;
+  border-width: .1rem;
+  margin-bottom: 3.2rem;
+}
+
+/* container around content within user personas */
+.persona-content {
+  margin: auto;
+  padding: 2.8rem 0 2.8rem 0;
+  width: 85%;
+}
+
+.persona-img {
+  float: right;
+  padding-left: 1.2rem;
+  width: 6.4rem;
+}
+
+#personas-intro {
+  padding-bottom: 2.8rem;
+}
+
+.persona-heading {
+  padding-bottom: .4rem;
+  padding-top: 3.2rem;
+}
+
+.persona-list {
+  margin-left: 6%;
+  padding-top: .8rem;
+}
+
+.persona-name {
+  padding-bottom: 0;
+}
+
+.persona-quote {
+  text-align: center;
+}
+
+.persona-top-li {
+  padding-top: .8rem;
+}
+
+/* intro message on index.html */
+p.intro-msg {
+  text-align: center;
+  font-size: 1.9rem;
+}
+
+p.project-intro {
+  font-size: 1.9rem;
+  padding-bottom: 2.4rem;
+}
+
+/* sizing and centering images on index.html */
+#portfolio-logo, #project-event-drawer {
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#portfolio-logo {
+  padding-bottom: 5.2rem;
+}
+
+/* problem section in case studies */
+.problem {
+  padding-top: 3rem;
+}
+
+/* <p> for both problem and solution sections in case studies */
+.problem-solution-p {
+  padding-bottom: 4rem;
+}
+
+#project-event-drawer {
+  padding-bottom: 2rem;
+}
+
+/* adds padding to "Roles, Tools, Scope" section of case studies (near top of case study) */
+.roles-p {
+  padding-bottom: 3.6rem;
+}
+
+/* Sample user flow image in Event Drawer case study */
+#sample-user-flow {
+  padding: 2.8rem 0 4rem 0;
+  width: 100%;
+}
+
+section {
+  background-color: white;
+  color: #000;
+  padding: 6rem 0 0 0;
+}
+
+section.project-intro {
+  background-color: #DCDADA;
+  color: #000;
+  margin-top: 0;
+  padding: 3.2rem 0 0 0;
+}
+
+section.user-testing-1 {
+  padding: 0;
+}
+
+.solution {
+  padding-top: 3.2rem;
+  padding-bottom: 2.2rem;
+}
+
+/* images under solution section in case studies */
+.solution-img {
+  background-color: #DCDADA;
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+}
+
+/* <p> beginning with "over 60% of respondents..." in Event Drawer case study */
+#survey {
+  padding-top: 3.2rem;
+}
+
+/* "Stories and Flows" section of case study (adjusts padding-top) */
+.stories-flows {
+  padding-top: 3.2rem;
+}
+
+.tablet {
+  display: none;
+}
+
+/* Gives a margin for the top nav bar so it does not overlap content */
+.top-nav {
+  margin-bottom: 4.4rem;
+}
+
+/* Makes "Work" "About" and "Contact" links on top nav bar black and eliminates underline */
+.top-nav-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.top-nav-logo {
+  display: inline-block;
+  float: left;
+  padding-top: 2.4rem;
+}
+
+ul {
+  font-size: 1.6rem;
+  font-family: "Lora", serif;
+  line-height: 167.2%;
+  padding-bottom: 2.8rem;
+  text-align: center;
+}
+
+ul.persona-info {
+  line-height: 2rem;
+  padding-bottom: 2rem;
+  text-align: left;
+}
+
+ul > li {
+  padding: 2rem 0 0 0;
+}
+
+/* adjusts background color of "View Prototype" button near top of Event Drawer case study */
+#evd-view-prototype {
+  background-color: #DCDADA;
+}
+
+#evd-view-prototype:hover {
+  background-color: #82321D;
+  color: white;
+}
+
+/* Entire wireframes section in case studies */
+.wireframes {
+  padding-top: 4.8rem;
+}
+
+/* wireframe images within the wireframe section in case studies */
+.wireframe-img {
+  padding-top: 2.8rem;
+  width: 100%;
+}
+
+/* specific adjustment for the wireframe prototype button in Event Drawer case study */
+#wireframe-prototype {
+  margin-top: 3.2rem;
+}
+
+#yeseva-one {
+  font-family: 'Yeseva One', serif;
+  font-size: 4rem;
+  padding: 0 0 2.8rem 0;
+  text-align: center;
+}
+
+/* media query customizes container width for desktop devices */
+@media screen and (min-width: 1025px) {
+  /* floats the "Contact Me" button left on the "About" page */
+  .about-button-div {
+    display: block;
+    float: left;
+  }
+
+/* specific formatting for image with dog on "About" page */
+  #about-end-img-large {
+    display: inline-block;
+    padding-top: 7.3rem;
+    width: 85%;
+  }
+
+/* Adds space between footer line and content (this is flush in mobile) */
+  #about-footer-line {
+    margin-top: 4rem;
+  }
+
+  #about-headshot {
+    display: inline-block;
+    padding-top: 2rem;
+    width: 60%;
+  }
+
+/* adding padding between photos and written content on about.html */
+  #about-photos {
+    padding-right: 1.6rem;
+  }
+
+/* creates parallax scrolling in Event Drawer case study for mind map sketch image */
+  #banner-mind-map-evd {
+    background-image: url(../img/EventDrawer/MindMapSketch.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35rem;
+    margin-bottom: 2.8rem;
+  }
+
+/* creates parallax scrolling in Event Drawer case study for wireframe sketch image */
+  #banner-wireframe-evd {
+    background-image: url(../img/EventDrawer/WireframeSketch.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40rem;
+    margin-bottom: 2.8rem;
+  }
+
+  #berkshire-swash {
+    padding: 0;
+  }
+
+  body {
+    margin-top: 10rem;
+  }
+
+/* adds extra margin so top nav bar doesn't overlap content */
+  .body-case-study {
+    margin-top: 7.8rem;
+  }
+
+  button {
+    background-color: white;
+    border-color: #845c44; /* tan */
+    border-radius: 1rem;
+    color: #845c44;
+    cursor: pointer;
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: .1em;
+    margin: 0 auto;
+    transition: 0.3s;
+    width: 20.3rem;
+  }
+
+/* aligns left for desktop */
+  .button-event-drawer {
+    display: inline-block;
+  }
+
+  #case-study-roles-text-large {
+    background-color: #DCDADA;
+    display: grid;
+    margin-top: 2.8rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 3.2rem;
+    text-align: center;
+  }
+
+/* adds space between footer line and content on "Contact" page */
+  #contact-footer-line {
+    margin-top: 4rem;
+  }
+
+  .contact-form-div {
+    background-color: white;
+    padding: 0;
+  }
+
+  #contact-form-id {
+    background-color: #DCDADA;
+    max-width: 40rem;
+    padding-bottom: .2rem;
+    width: 60%;
+  }
+
+  .container {
+    width: 75%;
+  }
+
+  #container-about-large {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+/* side by side display of brand typefaces in Event Drawer case study */
+  #evd-brand-typeface {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+/* adds grid formatting on desktop for this section in Event Drawer case study */
+  #evd-buttons-size {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  #evd-comp-button-large {
+    display: inline-block;
+    margin-bottom: 4.8rem;
+  }
+
+/* adds grid formatting */
+  #evd-comp-large {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 4.8rem;
+  }
+
+/* competitor logos image in Event Drawer case study */
+  #evd-comp-large-img {
+    padding-left: 8rem;
+  }
+
+/* text for competitive analysis section Event Drawer case study */
+  #evd-comp-large-text {
+    max-width: 52.1rem;
+    width: 100%;
+  }
+
+  #evd-google-large {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  #evd-move-buttons {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  #evd-paragraph {
+    max-width: 52.1rem;
+  }
+
+/* adjusts container around solution images for desktop devices */
+  #evd-solution-img {
+    background-color: #DCDADA;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 4rem;
+  }
+
+  #evd-survey-button-large {
+    display: inline-block;
+    margin: 4.8rem 0;
+  }
+
+/* survey results graph for desktop devices is a different image than mobile */
+  #evd-survey-large {
+    display: block;
+    max-width: 59.7rem;
+    width: 100%;
+  }
+
+  #evd-survey-list {
+    margin-left: 1.8rem;
+    padding-top: 1.6rem;
+  }
+
+  #evd-survey-list > li {
+    padding-bottom: 1.2rem;
+  }
+
+  #evd-survey-results-large {
+    align-items: end;
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+  }
+
+  #evd-survey-results-large-img {
+    display: block;
+    text-align: right;
+  }
+
+  #evd-survey-results-large-text {
+    display: block;
+    padding-right: 2rem;
+  }
+
+/* centers button */
+  #evd-view-prototype {
+    display: block;
+  }
+
+  #evd-wireframe-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: .5rem 2rem;
+  }
+
+/* showing example buttons in the user testing section within Event Drawer case study (not actual buttons users can click on) */
+  .event-drawer-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.6rem;
+    padding-top: 0;
+  }
+
+  #event-drawer-final-button {
+    padding-top: 2.8rem;
+  }
+
+/* color palette */
+  #event-drawer-colors-large {
+    display: block;
+    margin: 4.4rem auto;
+    width: 72%;
+  }
+
+  #event-drawer-final-img {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+/* final thoughts section */
+  #event-drawer-final-thoughts {
+    background-color: #DCDADA; /* grey */
+    margin-bottom: 0;
+    margin-top: 6rem;
+    padding: 4.8rem 0 5.6rem 0;
+  }
+
+/* container within section for final thoughts content */
+  #event-drawer-final-thoughts-div {
+    background-color: #DCDADA;
+  }
+
+  #event-drawer-google-large {
+    padding-right: 1.2rem;
+    padding-top: 1.2rem;
+  }
+
+  #event-drawer-heading-large {
+    display: block;
+    width: 35%;
+  }
+
+/* allows for overlap of case study heading and background image for the Event Drawer hero */
+  #event-drawer-heading-large-div {
+    background-image: url("../img/EventDrawer/EventDrawerHeroImage.jpg");
+    background-size: 100%;
+    padding-bottom: 45%;
+    padding-left: 4.8rem;
+    padding-top: 4.8rem;
+    width: 100%;
+    height: 100%;
+  }
+
+/* Home page images when talking about coloring in the case study (under branding section) */
+  .event-drawer-home {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4.4rem 0;
+    width: 75%;
+  }
+
+  #event-drawer-inbox-new {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4.4rem 0 0 0;
+    width: 75%;
+  }
+
+  #event-drawer-inbox-old {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4.4rem 0;
+    width: 75%;
+  }
+
+  #event-drawer-input-1 {
+    padding: .8rem 0 2rem 0;
+  }
+
+  #event-drawer-input-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 4rem 0;
+  }
+
+  #event-drawer-logo-1-large {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 4.4rem 0;
+    width: 60%;
+  }
+
+  #event-drawer-logo-2-large {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4.4rem 0;
+    width: 60%;
+  }
+
+  #event-drawer-logo-sketch {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4.4rem 0;
+    width: 60%;
+  }
+
+/* This element needs to float left and has different padding than the other li's in the footer */
+  .footer-logo {
+    float: left;
+    padding-bottom: 4rem;
+    padding-top: 2.4rem;
+  }
+
+/* This element has a specific width which is different from the other li's/children of the li's */
+  .footer-logo-img {
+    width: 3.8rem;
+  }
+
+  footer nav ul li {
+    padding-top: 3.3rem;
+  }
+
+  .form-control {
+    margin-bottom: 2.8rem;
+    width: 80%;
+  }
+
+  #form-control-1 {
+    margin-bottom: 2.8rem;
+    padding-top: 2.4rem;
+  }
+
+  .form-control-message {
+    background-color: white;
+    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.6rem;
+    height: 12rem;
+    outline: 0;
+    padding: .8rem .8rem 0 .8rem;
+    margin-bottom: 2rem;
+    width: 80%;
+  }
+
+/* class for "Let's get in touch!" message on About page.  Aligns left */
+  #get-in-touch {
+    display: inline-block;
+    float: left;
+    font-size: 2.4rem;
+    padding-top: 1.6rem;
+    text-align: left;
+  }
+
+  h3 {
+    font-size: 3rem;
+    padding-bottom: .8rem;
+  }
+
+  h3.contact-heading {
+    padding-top: 3.2rem;
+    text-align: center;
+  }
+
+  #hello {
+    width: 18.8rem;
+  }
+
+/* footer line */
+  hr {
+    margin-top: 7.2rem;
+  }
+
+/* eliminates overlap between content and top nav bar */
+  .hero-case-study {
+    padding-top: 2.2rem;
+  }
+
+/* on index.html */
+  .intro-msg {
+    font-size: 2.2rem;
+    width: 64%;
+    margin: auto;
+  }
+
+  .large {
+    display: block;
+  }
+
+/* This element needs slightly smaller top padding than the GitHub logo and also needs right padding */
+  .linkedin {
+    padding-top: 3.2rem;
+    padding-right: 4.4rem;
+  }
+
+  .mobile {
+    display: none !important;
+  }
+
+  .mobile-and-tablet {
+    display: none;
+  }
+
+  .nav-header {
+    padding-bottom: 2.7rem;
+  }
+
+  .nav-link {
+    padding-top: 3.7rem;
+  }
+
+  .nav-link-1 {
+    padding-right: 4.8rem;
+    padding-top: 3.7rem;
+  }
+
+/* creates a light red box around lists within the Event Drawer case study (to compliment Event Drawer's color palette) */
+  ol.evd-big-list {
+    background-color: #F3EAEA; /* light red */
+    border: .1rem solid #82321D;
+    font-size: 2.3rem;
+    margin: 3.6rem 0 4.8rem 0;
+    padding-bottom: 0rem;
+    padding-left: 4.4rem;
+    padding-right: 2rem;
+    width: 100%;
+  }
+
+  .persona-quote {
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  .personas-div {
+    display: grid;
+    grid-column-gap: 4rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .p-case-study {
+    /* the min width will stay inside the container but allow for ideal line lenghts.*/
+    max-width: 52.1rem;
+    width: 100%;
+  }
+
+/* project intro in case studies under the hero image */
+  p.project-intro {
+    background-color: #DCDADA;
+    font-size: 2.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 76rem;
+    padding: 4rem 0 6rem 0;
+    text-align: center;
+    width: 80%;
+  }
+
+  .problem {
+    padding-top: 4rem;
+  }
+
+  .roles {
+    background-color: #DCDADA;
+    border-left: 1px solid black;
+    padding-top: 0;
+  }
+
+  .roles-p-large {
+    padding-bottom: 1.2rem;
+    width: 100%;
+  }
+
+  .roles-final-large {
+    padding-bottom: 1.8rem;
+    width: 100%;
+  }
+
+  #sample-user-flow {
+    padding: 6rem 0;
+  }
+
+/* "Scope" section near top of case study needs a right border unlike "Roles" and "Tools" */
+  #scope {
+    border-right: 1px solid black;
+  }
+
+  .solution {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .top-nav-logo {
+    display: inline-block;
+    float: left;
+    padding-bottom: 2.8rem;
+    padding-top: 2.8rem;
+  }
+
+  .top-nav-logo-img {
+    width: 3.8rem;
+  }
+
+/* list of user flows in "Stories & Flows" section of case study */
+  .user-flows {
+    background-color: #F3EAEA; /* light red */
+    border: .1rem solid #82321D;
+    font-size: 2.3rem;
+    margin: 3.6rem 0 4.8rem 0;
+    padding: .2rem 0 2.8rem 0;
+    width: 100%;
+  }
+
+/* Image on index.html page */
+  #project-event-drawer {
+    padding-top: 2rem;
+    padding-bottom: 3.2rem;
+    width: 40rem;
+  }
+
+/* large logo on home page */
+  #portfolio-logo {
+    margin-top: 2rem;
+    width: 38rem;
+  }
+
+  #survey {
+    padding-top: 0;
+  }
+
+/* button to open Event Drawer's wireframe prototype in InVision */
+  #wireframe-prototype {
+    margin-top: 4.4rem;
+  }
+
+}
+
+/* making a few adjustments for specific screen widths on desktop */
+@media screen and (min-width: 1025px) and (max-width: 1330px) {
+
+/* keeping this here because this is class "large" and that class still needs to display in this media query.  This is specific to this id. */
+  #evd-comp-large {
+    display: none;
+  }
+
+  #evd-comp-small {
+    display: block;
+  }
+
+  #evd-comp-small-text {
+    max-width: 52.1rem;
+    width: 100%;
+  }
+
+  #evd-survey-results-large {
+    display: block;
+  }
+
+  #evd-survey-results-large-text {
+    display: block;
+    max-width: 52.1rem;
+    width: 100%;
+  }
+
+  #evd-survey-results-large-img {
+    display: block;
+    padding-top: 2.8rem;
+    text-align: left;
+  }
+}
+
+/* media query adjusts for tablet-sized screens */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  #about-headshot {
+    width: 40%;
+  }
+
+  #about-end-img-tablet {
+    display: block;
+    padding: 4rem 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 52.1rem;
+    width: 50%;
+  }
+
+/* adds space between footer line and content */
+  #contact-footer-line {
+    margin-top: 4rem;
+  }
+
+  .contact-form-div {
+    background-color: white;
+    padding: 0;
+  }
+
+  #contact-form-id {
+    background-color: #DCDADA;
+    max-width: 40rem;
+    padding-bottom: .2rem;
+    width: 60%;
+  }
+
+  #evd-brand-typeface {
+    padding: 0 0 0rem 0;
+  }
+
+  #evd-buttons {
+    padding: 1.6rem 0;
+  }
+
+  #evd-inputs {
+    padding: 2.4rem 0;
+  }
+
+  #evd-wireframe-img {
+    margin: auto;
+    width: 75%;
+  }
+
+  #event-drawer-colors-large {
+    display: block;
+    padding: 4rem 0;
+    width: 100%;
+  }
+
+  #event-drawer-comp {
+    display: block;
+    margin: auto;
+  }
+
+  #event-drawer-google {
+    margin: auto;
+    padding: 4.4rem 0;
+    width: 50%;
+  }
+
+  #event-drawer-inbox-new {
+    margin: auto;
+    padding: 3.6rem 0 0 0;
+    width: 75%;
+  }
+
+  #event-drawer-inbox-old {
+    margin: auto;
+    padding: 3.6rem 0;
+    width: 75%;
+  }
+
+  #event-drawer-heading-large {
+    display: block !important;
+    width: 35%;
+  }
+
+/* allows for overlap of case study heading and background image for the Event Drawer hero */
+  #event-drawer-heading-large-div {
+    background-image: url("../img/EventDrawer/EventDrawerHeroImage.jpg");
+    background-size: 100%;
+    display: block !important;
+    padding-bottom: 45%;
+    padding-left: 3.2rem;
+    padding-top: 3.2rem;
+    width: 100%;
+    height: 100%;
+  }
+
+/* Home page images when talking about coloring in the case study (under branding section) */
+  .event-drawer-home {
+    margin: auto;
+    padding: 3.6rem 0;
+    width: 75%;
+  }
+
+  #event-drawer-logo-1-large {
+    display: block;
+    margin: auto;
+    padding: 2rem 0 4rem 0;
+    width: 75%;
+  }
+
+  #event-drawer-logo-2-large {
+    display: block;
+    margin: auto;
+    padding: 4rem 0;
+    width: 75%;
+  }
+
+  #event-drawer-logo-sketch {
+    display: block;
+    margin: auto;
+    width: 75%;
+  }
+
+  #event-drawer-move-buttons {
+    padding-bottom: 3.2rem;
+    width: 40%;
+  }
+
+/* survey results graph Event Drawer case study */
+  #event-drawer-survey-tablet {
+    display: block;
+    margin: auto;
+    padding: 1rem 0 4.8rem 0;
+    width: 100%;
+  }
+
+  .event-drawer-solution-img {
+    width: 75%;
+  }
+
+  footer {
+    margin-bottom: 2.4rem;
+  }
+
+  .form-control {
+    margin-bottom: 2.8rem;
+    width: 80%;
+  }
+
+  #form-control-1 {
+    margin-bottom: 2.8rem;
+    padding-top: 2.4rem;
+    width: 80%;
+  }
+
+  .form-control-message {
+    background-color: white;
+    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.6rem;
+    height: 12rem;
+    outline: 0;
+    padding: .8rem .8rem 0 .8rem;
+    margin-bottom: 2rem;
+    width: 80%;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  h3.contact-heading {
+    font-size: 3rem;
+    letter-spacing: 0.12em;
+    padding: 3.2rem 0 .8rem 0;
+    text-align: center;
+  }
+
+  #hello {
+    width: 28%;
+  }
+
+  .hero-case-study {
+    margin-top: -.8rem;
+    padding-top: 0;
+  }
+
+/* This element needs padding-right unlike the other footer li's */
+  .linkedin {
+    padding-right: 3.8rem;
+  }
+
+  .mobile {
+    display: none !important;
+  }
+
+  .nav-link-1 {
+    padding-right: 2.8rem;
+  }
+
+  ol.evd-big-list {
+    background-color: #F3EAEA; /* light red */
+    border: .1rem solid #82321D;
+    margin: 3.6rem 0 4.8rem 0;
+    padding-bottom: 0rem;
+    padding-left: 4.4rem;
+    padding-right: 2rem;
+    width: 100%;
+  }
+
+  .p-case-study {
+    /* the min width will stay inside the container but allow for ideal line lenghts.*/
+    max-width: 52.1rem;
+    width: 100%;
+  }
+
+  p.project-intro {
+    background-color: #DCDADA;
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 76rem;
+    padding: 1.2rem 0 4rem 0;
+    text-align: center;
+    width: 80%;
+  }
+
+  .persona {
+    margin: auto;
+    margin-bottom: 3.2rem;
+    width: 80%;
+  }
+
+  .persona-img {
+    width: 35%;
+  }
+
+  #portfolio-logo {
+    width: 50%;
+  }
+
+  #project-event-drawer {
+    width: 62%;
+  }
+
+  .user-flows {
+    background-color: #F3EAEA; /* light red */
+    border: .1rem solid #82321D;
+    font-size: 2rem;
+    margin: 3.6rem 0 4.8rem 0;
+    padding: .2rem 0 2.8rem 0;
+    width: 100%;
+  }
+
+  #sample-user-flow {
+    padding: 4.8rem 0;
+  }
+
+  .solution {
+    padding-bottom: 3.6rem;
+  }
+
+  .solution-img {
+    padding: 4rem 0;
+  }
+
+  .stories-flows {
+    padding-top: 1rem;
+  }
+}
