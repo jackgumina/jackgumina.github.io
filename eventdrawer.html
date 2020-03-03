@@ -30,24 +30,24 @@
   <body class="body-case-study">
     <!-- hero -->
     <section class="hero-case-study">
-      <div id="event-drawer-heading-large-div">
-        <img id="event-drawer-heading-large" src="img/EventDrawer/EventDrawerHeadingLarge.svg" alt="Event Drawer Heading">
+      <div class="large" id="event-drawer-heading-large-div">
+        <img class="large" id="event-drawer-heading-large" src="img/EventDrawer/EventDrawerHeadingLarge.svg" alt="Event Drawer Heading">
       </div>
       <div class="container">
-        <img id="event-drawer-heading-small" src="img/EventDrawer/EventDrawerHeadingMobile.svg" alt="Event Drawer Heading">
+        <img class="mobile" id="event-drawer-heading-small" src="img/EventDrawer/EventDrawerHeadingMobile.svg" alt="Event Drawer Heading">
       </div>
-      <img id="event-drawer-top-img" src="img/EventDrawer/EventDrawerHeroImage.jpg" alt="Event Drawer on a desktop">
+      <img class="mobile" id="event-drawer-top-img" src="img/EventDrawer/EventDrawerHeroImage.jpg" alt="Event Drawer on a desktop">
 
       <!-- project intro -->
       <section class="project-intro">
-        <div class="container-intro">
+        <div class="container" id="container-intro">
           <p class="project-intro">People use cloud storage products to help plan events.  Google Drive to create a guestlist, Pinterest to share ideas, Dropbox to send an important PDF.  Why not use a single product to perform all of these tasks?  Event Drawer aims to be the one-stop-shop for event planning needs.</p>
           <button class="button-event-drawer" id="evd-view-prototype" type="button" onclick="window.open('https://invis.io/DQVH4A7V6YC', '_blank')">VIEW PROTOTYPE</button>
         </div>
       </section>
       <!-- This section for small devices -->
       <section class="case-study-roles">
-        <div class="container" id="case-study-roles-text">
+        <div class="container mobile-and-tablet" id="case-study-roles-text">
           <h3>ROLES</h3>
           <p class="roles-p">Research, Branding, Design, Testing</p>
           <h3>TOOLS USED</h3>
@@ -56,7 +56,7 @@
           <p>User Interviews, Surveys, Personas, Information Architecture, Wireframes, Prototype, User Testing</p>
         </div>
         <!-- This section for larger devices will use CSS grid to show 3 column layout -->
-        <div class="container" id="case-study-roles-text-large">
+        <div class="container large" id="case-study-roles-text-large">
           <section class="roles">
             <h3>ROLES</h3>
             <p class="roles-p-large">Research</p>
@@ -117,10 +117,10 @@
           <li>Do people use cloud storage products to help plan events?</li>
           <li>What problems do users face when planning events?</li>
         </ol>
-        <!-- This div for smaller devices -->
-        <div id="evd-survey-results-small">
-          <img id="event-drawer-survey" src="img/EventDrawer/SurveyResultsMobile.svg" alt="Survey results graph">
-          <img id="event-drawer-survey-tablet" src="img/EventDrawer/SurveyResultsLarge.svg" alt="Survey results graph">
+        <!-- This div for mobile and tablet devices -->
+        <div class="mobile-and-tablet" id="evd-survey-results-small">
+          <img class="mobile" id="event-drawer-survey" src="img/EventDrawer/SurveyResultsMobile.svg" alt="Survey results graph">
+          <img class="tablet" id="event-drawer-survey-tablet" src="img/EventDrawer/SurveyResultsLarge.svg" alt="Survey results graph">
           <button class="button-event-drawer" type="button" onclick="window.open('https://forms.gle/PiGCSuvtHmF2c9Ju7', '_blank')">VIEW SURVEY</button>
           <p class="p-case-study" id="survey">Over 60% of respondents said they used cloud storage products to assist with event planning.  The two biggest problems users faced when planning events were keeping track of attendance levels and feeling generally disorganized and overwhelmed.  This survey informed me to create a product that would:</p>
           <ol class="evd-big-list">
@@ -130,7 +130,7 @@
         </div>
         <!-- Same content as prior div, but reordered for desktop -->
         <div id="evd-survey-results-large">
-          <div id="evd-survey-results-large-text">
+          <div class="large" id="evd-survey-results-large-text">
             <p class="p-case-study">Over 60% of respondents said they used cloud storage products to assist with event planning.  The two biggest problems users faced when planning events were keeping track of attendance levels and feeling generally disorganized and overwhelmed.  This survey informed me to create a product that would:</p>
             <ol id="evd-survey-list">
               <li>Allow users to track attendance</li>
@@ -138,23 +138,23 @@
             </ol>
           </div>
           <div id="evd-survey-results-large-img">
-            <img id="evd-survey-large" src="img/EventDrawer/SurveyResultsLarge.svg" alt="Survey results graph">
+            <img class="large" id="evd-survey-large" src="img/EventDrawer/SurveyResultsLarge.svg" alt="Survey results graph">
           </div>
         </div>
-        <button class="button-event-drawer" id="evd-survey-button-large" type="button" onclick="window.open('https://forms.gle/PiGCSuvtHmF2c9Ju7', '_blank')">VIEW SURVEY</button>
+        <button class="button-event-drawer large" id="evd-survey-button-large" type="button" onclick="window.open('https://forms.gle/PiGCSuvtHmF2c9Ju7', '_blank')">VIEW SURVEY</button>
         <!-- Begin competitive analysis -->
         <!-- First div for small devices -->
-        <div id="evd-comp-small">
+        <div class="mobile-and-tablet" id="evd-comp-small">
           <p class="p-case-study"id="evd-comp-small-text">I analyzed Google Drive, Dropbox, and Pinterest, which all allow for easy file creation and collaboration.  However, users would have to get creative in their use of each product to effectively use them as event planners.  Why not provide a product that was specifically tailored to this purpose?</p>
           <img id="event-drawer-comp" src="img/EventDrawer/CompAnalysis.svg" alt="Competitor logos">
         </div>
-        <button class="button-event-drawer" id="evd-comp-button-small" type="button" onclick="window.open('img/EventDrawer/EventDrawerCompetitiveAnalysis.pdf', '_blank')">VIEW ANALYSIS</button>
+        <button class="button-event-drawer mobile-and-tablet" id="evd-comp-button-small" type="button" onclick="window.open('img/EventDrawer/EventDrawerCompetitiveAnalysis.pdf', '_blank')">VIEW ANALYSIS</button>
         <!-- reorder content to allow for CSS grid design for large devices -->
-        <div id="evd-comp-large">
+        <div class="large" id="evd-comp-large">
           <img id="evd-comp-large-img" src="img/EventDrawer/CompAnalysis.svg" alt="Competitor logos">
           <p id="evd-comp-large-text">I analyzed Google Drive, Dropbox, and Pinterest, which all allow for easy file creation and collaboration.  However, users would have to get creative in their use of each product to effectively use them as event planners.  Why not provide a product that was specifically tailored to this purpose?</p>
         </div>
-        <button class="button-event-drawer" id="evd-comp-button-large" type="button" onclick="window.open('img/EventDrawer/EventDrawerCompetitiveAnalysis.pdf', '_blank')">VIEW ANALYSIS</button>
+        <button class="button-event-drawer large" id="evd-comp-button-large" type="button" onclick="window.open('img/EventDrawer/EventDrawerCompetitiveAnalysis.pdf', '_blank')">VIEW ANALYSIS</button>
 
         <!-- PERSONAS -->
         <p id="personas-intro">I created the following user personas:</p>
@@ -237,7 +237,8 @@
       <!-- Wireframes start here with an image of a sketch -->
     </div>
       <section class="wireframes">
-        <div class="banner" id="banner-wireframe-evd">
+        <!-- Div created for Wireframe sketch to allow for parallax scrolling image created in CSS -->
+        <div id="banner-wireframe-evd">
 
         </div>
         <div class="container">
@@ -268,14 +269,14 @@
           <p class="p-case-study">Not all buttons were consistently sized, which sometimes confused users.  Was there a difference in importance between the large and small buttons?  Did they all function the same?  I needed to make all buttons uniform.</p>
           <div id="evd-buttons">
             <img class="event-drawer-button" src="img/EventDrawer/Button1Mobile.svg" alt="Button">
-            <img class="event-drawer-button" id="final-button" src="img/EventDrawer/Button2Mobile.svg" alt="Button">
+            <img class="event-drawer-button" id="event-drawer-final-button" src="img/EventDrawer/Button2Mobile.svg" alt="Button">
           </div>
         </div>
-        <div id="evd-google-small">
+        <div class="mobile-and-tablet" id="evd-google-small">
           <p class="p-case-study">When signing up with Google, the users did not know where the verification code would be sent.  I needed to clear this up.</p>
           <img id="event-drawer-google" src="img/EventDrawer/GoogleMobile.svg" alt="Google verification">
         </div>
-        <div id="evd-google-large">
+        <div class="large" id="evd-google-large">
           <img id="event-drawer-google-large" src="img/EventDrawer/GoogleMobile.svg" alt="Google verification">
           <p class="p-case-study">When signing up with Google, the users did not know where the verification code would be sent.  I needed to clear this up.</p>
         </div>
@@ -288,7 +289,8 @@
 
       <!-- Branding and Visual Design start here with an image of a sketch -->
       <section>
-        <div class="banner" id="banner-mind-map-evd">
+        <!-- Div created for Mind Map sketch to allow for parallax scrolling image created in CSS -->
+        <div id="banner-mind-map-evd">
 
         </div>
         <div class="container">
@@ -303,8 +305,8 @@
           </ol>
           <p class="p-case-study">In line with my brand adjectives, I chose a warm color palette.
           </p>
-          <img id="event-drawer-colors-mobile" src="img/EventDrawer/ColorsMobile.svg" alt="Color palette">
-          <img id="event-drawer-colors-large" src="img/EventDrawer/ColorsLarge.svg" alt="Color palette">
+          <img class="mobile" id="event-drawer-colors-mobile" src="img/EventDrawer/ColorsMobile.svg" alt="Color palette">
+          <img class="large" id="event-drawer-colors-large" src="img/EventDrawer/ColorsLarge.svg" alt="Color palette">
           <p class="p-case-study">I was initally torn between two brand typefaces -- Berkshire Swash and Yeseva One.  Berkshire Swash’s curves and movement give off a sense of fun.  Yeseva One still seemed fun, but a bit more readable and sleek.  Preference testing showed me 83% of users preferred Yeseva One.
           </p>
           <div id="evd-brand-typeface">
@@ -322,18 +324,18 @@
           <p class="p-case-study">For a logo, I thought a drawer could be homey and fun-looking.
           </p>
           <img id="event-drawer-logo-sketch" src="img/EventDrawer/LogoSketch.jpg" alt="Logo sketch">
-          <img id="event-drawer-logo-1-mobile" src="img/EventDrawer/Logo1Mobile.svg" alt="First logo vector">
-          <img id="event-drawer-logo-1-large" src="img/EventDrawer/Logo1Large.svg" alt="First logo vector">
+          <img class="mobile" id="event-drawer-logo-1-mobile" src="img/EventDrawer/Logo1Mobile.svg" alt="First logo vector">
+          <img class="large" id="event-drawer-logo-1-large" src="img/EventDrawer/Logo1Large.svg" alt="First logo vector">
           <p class="p-case-study">When creating hi-fi mockups, I realized my drawer handle was too detailed for a small scale.  I simplified it.
           </p>
-          <img id="event-drawer-logo-2-mobile" src="img/EventDrawer/Logo2Mobile.svg" alt="Final logo vector">
-          <img id="event-drawer-logo-2-large" src="img/EventDrawer/Logo2Large.svg" alt="Final logo vector">
+          <img class="mobile" id="event-drawer-logo-2-mobile" src="img/EventDrawer/Logo2Mobile.svg" alt="Final logo vector">
+          <img class="large" id="event-drawer-logo-2-large" src="img/EventDrawer/Logo2Large.svg" alt="Final logo vector">
           <p class="p-case-study">One of the biggest challenges during the visual design process was the use of color throughout the site.  I began with a mahogany background along with a cream color instead white.
           </p>
-          <img id="event-drawer-home-1" src="img/EventDrawer/Home1.jpg" alt="Home screen">
+          <img class="event-drawer-home" src="img/EventDrawer/Home1.jpg" alt="Home screen">
           <p class="p-case-study">Through preference testing and discussions with the design team, I came to the conclusion that my background was too dark.  It took focus away from the most important elements on the page, such as buttons and text.  In addition, the cream color looked dated.  I went with white instead to give the site a cleaner and more modern feel.  I also lightened the drawers.
           </p>
-          <img id="event-drawer-home-2" src="img/EventDrawer/Home2.jpg" alt="Revised home screen">
+          <img class="event-drawer-home" src="img/EventDrawer/Home2.jpg" alt="Revised home screen">
         </div>
       </section>
     <div class="container">
