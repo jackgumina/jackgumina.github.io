@@ -413,8 +413,10 @@ form {
 
 /* class for submit button contact page */
 .form-control-submit {
-  background-color: #DCDADA;
-  border-color: #845c44; /* tan */
+  border: none;
+  appearance: none;
+  background-color: #DCDADA; /* grey */
+  border: 1px solid #845c44; /* tan */
   border-radius: 1rem;
   color: #845c44;
   cursor: pointer;
