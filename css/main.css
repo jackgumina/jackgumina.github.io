@@ -515,6 +515,7 @@ hr {
 /* This specific element needs right-padding to create distance from the GitHub logo */
 .linkedin {
   padding-right: 2.4rem;
+  padding-top: 1rem;
 }
 
 /* entire top nav */
@@ -1220,7 +1221,7 @@ ul > li {
 
 /* This element needs slightly smaller top padding than the GitHub logo and also needs right padding */
   .linkedin {
-    padding-top: 3.2rem;
+    padding-top: 2.3rem;
     padding-right: 4.4rem;
   }
 
@@ -1592,9 +1593,10 @@ ul > li {
     padding-top: 0;
   }
 
-/* This element needs padding-right unlike the other footer li's */
+/* This element needs padding-right unlike the other footer li's and needs adjusted top-padding */
   .linkedin {
     padding-right: 3.8rem;
+    padding-top: 1rem;
   }
 
   .mobile {
