@@ -414,6 +414,7 @@ form {
 /* class for submit button contact page */
 .form-control-submit {
   border: none;
+  -webkit-appearance: none;
   appearance: none;
   background-color: #DCDADA; /* grey */
   border: 1px solid #845c44; /* tan */
