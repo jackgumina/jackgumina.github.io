@@ -33,7 +33,7 @@ html {
   padding-top: 2.8rem;
 }
 
-/* Top padding on the second large section of text titled "Life Translated into UX" on About page*/
+/* Top padding on the section titled "Life Translated into UX" on About page*/
 #about-life-ux {
   padding-top: 3.2rem;
 }
@@ -65,7 +65,7 @@ html {
   font-family: 'Berkshire Swash', serif;
   font-size: 4rem;
   padding: 2.8rem 0;
-  text-align: center;
+  text-align: left;
 }
 
 /* Giving the body a top margin so the top nav bar does not overlap the body of a page */
@@ -592,9 +592,8 @@ p {
 }
 
 .persona-img {
-  float: right;
-  padding-left: 1.2rem;
-  width: 6.4rem;
+  padding: 0 0 1.2rem 0;
+  width: 12rem;
 }
 
 #personas-intro {
@@ -776,11 +775,15 @@ ul > li {
   margin-top: 3.2rem;
 }
 
+.xl {
+  display: none;
+}
+
 #yeseva-one {
   font-family: 'Yeseva One', serif;
   font-size: 4rem;
   padding: 0 0 2.8rem 0;
-  text-align: center;
+  text-align: left;
 }
 
 /* media query customizes container width for desktop devices */
@@ -789,6 +792,10 @@ ul > li {
   .about-button-div {
     display: block;
     float: left;
+  }
+
+  #about-contact-button {
+    display: block;
   }
 
 /* specific formatting for image with dog on "About" page */
@@ -880,12 +887,11 @@ ul > li {
 
 /* adds space between footer line and content on "Contact" page */
   #contact-footer-line {
-    margin-top: 4rem;
+    margin-top: 8rem;
   }
 
   .contact-form-div {
     background-color: white;
-    padding: 0;
   }
 
   #contact-form-id {
@@ -896,6 +902,7 @@ ul > li {
   }
 
   .container {
+    max-width: 103.5rem;
     width: 75%;
   }
 
@@ -1035,7 +1042,7 @@ ul > li {
 /* color palette */
   #event-drawer-colors-large {
     display: block;
-    margin: 4.4rem auto;
+    margin: 4.4rem 0;
     width: 72%;
   }
 
@@ -1064,6 +1071,7 @@ ul > li {
 
   #event-drawer-heading-large {
     display: block;
+    max-width: 40rem;
     width: 35%;
   }
 
@@ -1080,22 +1088,16 @@ ul > li {
 
 /* Home page images when talking about coloring in the case study (under branding section) */
   .event-drawer-home {
-    margin-left: auto;
-    margin-right: auto;
     padding: 4.4rem 0;
     width: 75%;
   }
 
   #event-drawer-inbox-new {
-    margin-left: auto;
-    margin-right: auto;
     padding: 4.4rem 0 0 0;
     width: 75%;
   }
 
   #event-drawer-inbox-old {
-    margin-left: auto;
-    margin-right: auto;
     padding: 4.4rem 0;
     width: 75%;
   }
@@ -1113,24 +1115,18 @@ ul > li {
 
   #event-drawer-logo-1-large {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     padding: 0 0 4.4rem 0;
     width: 60%;
   }
 
   #event-drawer-logo-2-large {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     padding: 4.4rem 0;
     width: 60%;
   }
 
   #event-drawer-logo-sketch {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     padding: 4.4rem 0;
     width: 60%;
   }
@@ -1180,7 +1176,7 @@ ul > li {
     display: inline-block;
     float: left;
     font-size: 2.4rem;
-    padding-top: 1.6rem;
+    padding: 1.6rem 16rem 2rem 0;
     text-align: left;
   }
 
@@ -1211,8 +1207,9 @@ ul > li {
 /* on index.html */
   .intro-msg {
     font-size: 2.2rem;
-    width: 64%;
     margin: auto;
+    max-width: 64rem;
+    width: 64%;
   }
 
   .large {
@@ -1256,6 +1253,11 @@ ul > li {
     padding-left: 4.4rem;
     padding-right: 2rem;
     width: 100%;
+  }
+
+  .persona-img {
+    float: right;
+    width: 8rem;
   }
 
   .persona-quote {
@@ -1368,6 +1370,10 @@ ul > li {
     margin-top: 4.4rem;
   }
 
+  .xl {
+    display: none;
+  }
+
 }
 
 /* making a few adjustments for specific screen widths on desktop */
@@ -1427,7 +1433,6 @@ ul > li {
 
   .contact-form-div {
     background-color: white;
-    padding: 0;
   }
 
   #contact-form-id {
@@ -1450,7 +1455,6 @@ ul > li {
   }
 
   #evd-wireframe-img {
-    margin: auto;
     width: 75%;
   }
 
@@ -1472,13 +1476,11 @@ ul > li {
   }
 
   #event-drawer-inbox-new {
-    margin: auto;
     padding: 3.6rem 0 0 0;
     width: 75%;
   }
 
   #event-drawer-inbox-old {
-    margin: auto;
     padding: 3.6rem 0;
     width: 75%;
   }
@@ -1502,28 +1504,24 @@ ul > li {
 
 /* Home page images when talking about coloring in the case study (under branding section) */
   .event-drawer-home {
-    margin: auto;
     padding: 3.6rem 0;
     width: 75%;
   }
 
   #event-drawer-logo-1-large {
     display: block;
-    margin: auto;
     padding: 2rem 0 4rem 0;
     width: 75%;
   }
 
   #event-drawer-logo-2-large {
     display: block;
-    margin: auto;
     padding: 4rem 0;
     width: 75%;
   }
 
   #event-drawer-logo-sketch {
     display: block;
-    margin: auto;
     width: 75%;
   }
 
@@ -1618,8 +1616,6 @@ ul > li {
   }
 
   .p-case-study {
-    /* the min width will stay inside the container but allow for ideal line lenghts.*/
-    max-width: 52.1rem;
     width: 100%;
   }
 
@@ -1641,7 +1637,8 @@ ul > li {
   }
 
   .persona-img {
-    width: 35%;
+      float: right;
+      width: 35%;
   }
 
   #portfolio-logo {
@@ -1675,5 +1672,73 @@ ul > li {
 
   .stories-flows {
     padding-top: 1rem;
+  }
+
+  .xl {
+    display: none;
+  }
+}
+
+/* media query for extra large monitors */
+@media screen and (min-width: 1200px) {
+
+  #event-drawer-heading-xl {
+    background-color: #DCDADA;
+    max-width: 40rem;
+    padding: 4rem 0 0 0;
+  }
+
+  #event-drawer-heading-xl-container {
+    background-color: #DCDADA;
+  }
+
+  #event-drawer-heading-xl-div {
+    background-color: #DCDADA;
+  }
+
+  #event-drawer-final-img {
+    display: none;
+  }
+
+  #event-drawer-final-img-div-xl {
+    background-color: #DCDADA;
+    padding-bottom: 8rem;
+  }
+
+  #event-drawer-final-img-xl {
+    width: 100%;
+  }
+
+  #event-drawer-top-img-xl {
+    margin: auto;
+    padding-top: 4rem;
+    width: 100%;
+  }
+
+  .large {
+    display: none;
+  }
+
+  .xl {
+    display: block;
+  }
+}
+
+/* adjusting the footer on contact page to stay at the bottom with iPad resolution */
+@media screen and (min-height: 760px) and (max-width: 1024px){
+  #contact-footer {
+    position: absolute;
+    bottom: 0;
+    width: 84%;
+  }
+}
+
+/* adjusting the footer on contact page to stay at the bottom for wide screen resolution */
+@media screen and (min-height: 850px) and (min-width: 1025px){
+  #contact-footer {
+    position: absolute;
+    bottom: 0;
+    max-width: 103.5rem;
+    width: 75%;
   }
 }
