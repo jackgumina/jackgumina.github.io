@@ -78,19 +78,20 @@ body {
 button {
   border: none;
   background-color: white;
-  border: 1px solid #845c44; /* tan color */
+  border: 2px solid #845c44; /* tan color */
   border-radius: 1rem;
   color: #845c44; /* tan color */
   cursor: pointer;
   display: block;
   font-family: 'Work Sans', sans-serif;
   font-size: 1.6rem;
+  font-weight: bold;
   height: 4.8rem;
   letter-spacing: .1em;
   margin: 0 auto;
   padding: 0;
   transition: 0.3s;
-  width: 18.3rem;
+  width: 20rem;
 }
 
 button:hover {
@@ -366,16 +367,44 @@ button:hover {
   padding-bottom: 2.8rem;
 }
 
+.footer-email-me {
+  display: inline-block;
+  font-style: italic;
+  font-size: 2.1rem;
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: 0.12em;
+  line-height: 167.2%;
+  color: #000;
+  padding: 4rem 0 3.2rem 0;
+  text-decoration-color: #FFAE11;
+}
+
+.footer-email-me:hover {
+  color: #FFAE11;
+  font-weight: bold;
+}
+
+.footer-img {
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.footer-img-linkedin {
+  padding: 1rem 1rem 1rem 1rem;
+}
+
 /* This specific element needs to float left and has 1.6rem padding instead of 2rem like the other li's in the footer */
 .footer-logo {
   float: left;
-  padding-top: 1.6rem;
+}
+
+.footer-logo-img {
+  padding: 1.6rem 2rem 2rem 0;
 }
 
 footer nav ul li {
   display: inline-block;
   float: right;
-  padding-top: 2rem;
+  padding-top: 0;
 }
 
 /* form on contact page */
@@ -417,13 +446,14 @@ form {
   -webkit-appearance: none;
   appearance: none;
   background-color: #DCDADA; /* grey */
-  border: 1px solid #845c44; /* tan */
+  border: 2px solid #845c44; /* tan */
   border-radius: 1rem;
   color: #845c44;
   cursor: pointer;
   display: block;
   font-family: 'Work Sans', sans-serif;
   font-size: 1.6rem;
+  font-weight: bold;
   height: 4.8rem;
   letter-spacing: .1em;
   margin-left: auto;
@@ -431,7 +461,7 @@ form {
   margin-top: 1rem;
   padding: 0;
   transition: 0.3s;
-  width: 18.3rem;
+  width: 20rem;
 }
 
 .form-control-submit:hover{
@@ -505,7 +535,7 @@ header {
 /* horizontal line for nav bar */
 hr {
   border-top: 1px #e4e4e4; /* light grey, bottom nav bar */
-  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 
 .large {
@@ -515,7 +545,7 @@ hr {
 /* This specific element needs right-padding to create distance from the GitHub logo */
 .linkedin {
   padding-right: 2.4rem;
-  padding-top: 1rem;
+  padding-top: 0;
 }
 
 /* entire top nav */
@@ -530,8 +560,27 @@ hr {
   font-family: 'Work Sans', sans-serif;
   font-size: 1.6rem;
   letter-spacing: .12em;
-  padding-top: 2.8rem;
+  padding: 0;
 }
+
+/* adding active state to nav links */
+  #nav-link-about {
+    text-decoration: underline;
+    text-decoration-color: #FFAE11;
+    text-decoration-style: solid;
+  }
+
+  #nav-link-contact {
+    text-decoration: underline;
+    text-decoration-color: #FFAE11;
+    text-decoration-style: solid;
+  }
+
+  #nav-link-work {
+    text-decoration: underline;
+    text-decoration-color: #FFAE11;
+    text-decoration-style: solid;
+  }
 
 /* "Work" and "About" links in top nav need padding-right */
 .nav-link-1 {
@@ -540,8 +589,7 @@ hr {
   font-family: 'Work Sans', sans-serif;
   font-size: 1.6rem;
   letter-spacing: .12em;
-  padding-top: 2.8rem;
-  padding-right: 2rem;
+  padding-top: 0;
 }
 
 ol {
@@ -722,13 +770,36 @@ section.user-testing-1 {
 /* Makes "Work" "About" and "Contact" links on top nav bar black and eliminates underline */
 .top-nav-link {
   color: #000;
+  display: block;
   text-decoration: none;
+  padding: 2.4rem .8rem 2rem .8rem;
+}
+
+.top-nav-link:hover {
+  font-weight: bold;
+  color: #FFAE11;
+}
+
+.top-nav-link-contact {
+  color: #000;
+  display: block;
+  text-decoration: none;
+  padding: 2.4rem 0rem 2rem .8rem;
+}
+
+.top-nav-link-contact:hover {
+  font-weight: bold;
+  color: #FFAE11;
 }
 
 .top-nav-logo {
   display: inline-block;
   float: left;
   padding-top: 2.4rem;
+}
+
+.top-nav-logo-a {
+  padding: 3rem 1.6rem 2rem 0rem;
 }
 
 ul {
@@ -807,7 +878,7 @@ ul > li {
 
 /* Adds space between footer line and content (this is flush in mobile) */
   #about-footer-line {
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 
   #about-headshot {
@@ -1131,16 +1202,20 @@ ul > li {
     width: 60%;
   }
 
+  .footer-img {
+    padding-top: 1.2rem;
+  }
+
 /* This element needs to float left and has different padding than the other li's in the footer */
   .footer-logo {
     float: left;
     padding-bottom: 4rem;
-    padding-top: 2.4rem;
+    padding-top: 2rem;
   }
 
 /* This element has a specific width which is different from the other li's/children of the li's */
   .footer-logo-img {
-    width: 3.8rem;
+    width: 5.6rem;
   }
 
   footer nav ul li {
@@ -1196,7 +1271,7 @@ ul > li {
 
 /* footer line */
   hr {
-    margin-top: 7.2rem;
+    margin-top: 2rem;
   }
 
 /* eliminates overlap between content and top nav bar */
@@ -1325,6 +1400,20 @@ ul > li {
 
   .tablet {
     display: none;
+  }
+
+  .top-nav-link {
+    color: #000;
+    display: block;
+    text-decoration: none;
+    padding: 0;
+  }
+
+  .top-nav-link-contact {
+    color: #000;
+    display: block;
+    text-decoration: none;
+    padding: 0;
   }
 
   .top-nav-logo {
@@ -1593,8 +1682,7 @@ ul > li {
 
 /* This element needs padding-right unlike the other footer li's and needs adjusted top-padding */
   .linkedin {
-    padding-right: 3.8rem;
-    padding-top: 1rem;
+
   }
 
   .mobile {
