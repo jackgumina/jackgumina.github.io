@@ -94,7 +94,6 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-size: 1.6rem;
   font-weight: bold;
-  height: 1.6rem;
   letter-spacing: .1em;
   margin: auto;
   padding: 1.4rem 0;
@@ -118,7 +117,6 @@ body {
   display: block;
   font-family: 'Work Sans', sans-serif;
   font-size: 1.6rem;
-  height: 1.6rem;
   letter-spacing: .1em;
   margin: 0 auto;
   padding: 1.4rem 0;
@@ -954,7 +952,7 @@ ul > li {
 
 /* specific adjustment for the wireframe prototype button in Event Drawer case study */
 #wireframe-prototype {
-  height: 4.4rem;
+  height: 6rem;
   line-height: 140%;
   margin-top: 3.2rem;
   padding: .6rem 0;
