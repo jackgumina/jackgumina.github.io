@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" type="image/png" href="/img/logo.png">
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora|Work+Sans:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300&display=swap" rel="stylesheet">
   </head>
 
   <header>
@@ -33,22 +33,24 @@
     </nav>
   </header>
 
-  <body>
     <div class="container" id="container-about-large">
       <!-- photos -->
-      <div id="about-photos">
+      <section id="about-photos">
         <section class="about-section" id="about-hero">
           <img id="about-headshot" src="img/About/AboutHeadshot.png" alt="Headshot">
           <h3 class="about-h3" id="get-in-touch">LET'S GET IN TOUCH!</h3>
           <div class="about-button-div">
-            <button id="about-contact-button" type="button" onclick="window.location.href='contact.html';">CONTACT ME</button>
+            <a class="button" id="about-contact-button" href="contact.html">CONTACT ME</a>
+            <a class="button" id="about-resume-button" href="img/About/resume-jack-gumina.pdf" target="_blank">RESUME</a>
           </div>
           <img class="large" id="about-end-img-large" src="img/About/AboutEndImage-Large.jpg" alt="Picture of Jack, fiancee, and dog">
+          <p class="large caption">My fiancee, Leah, and Great Dane, Dave</p>
+          <p class="xl caption">My fiancee, Leah, and Great Dane, Dave</p>
         </section>
-      </div>
+      </section>
 
       <!-- content -->
-      <div>
+      <article>
         <section class="about-section" id="about-story">
           <h3 class="about-h3">HOW I GOT HERE</h3>
           <p class="p-case-study">After a day of work in corporate banking, I sat down with my cousin at a brewery. She was learning tarot cards and gave me a reading. She stated that apparently there was a “big career change” coming in my life. Highly skeptical, yet undeniably interested, I took the bait. I told my cousin I enjoyed my job, but I had always wanted to use more creativity in my career– after all, I grew up playing music and making films whenever I could. My cousin then went on to tell me about her career in UX and product strategy, and how it allowed her to combine creativity with practicality. After a couple of hours of conversation and a couple more craft beers, I was convinced. Soon after I enrolled in a design apprenticeship and the rest is history. (I would like to note that I’m still skeptical of tarot cards.)</p>
@@ -60,13 +62,14 @@
           <br>
           <p class="p-case-study">Before my foray into UX, I came from the world of finance and business. I'm grateful for this background because it's helped me see design holistically within an organization. I understand that design is a key step in a process that goes from product strategy to development and into our customers' hands. I believe to be a great designer I need to recognize how my work impacts (and is impacted by) other business functions.</p>
         </section>
-      </div>
+      </article>
     </div>
-    <img class="mobile"id="about-end-img-mobile" src="img/About/AboutEndImage.jpg" alt="Picture of Jack, fiancee, and dog">
+    <img class="mobile" id="about-end-img-mobile" src="img/About/AboutEndImage.jpg" alt="Picture of Jack, fiancee, and dog">
     <div class="container">
+      <p class="mobile caption" id="about-caption">My fiancee, Leah, and Great Dane, Dave</p>
       <img class="tablet" id="about-end-img-tablet" src="img/About/AboutEndImage-Large.jpg" alt="Picture of Jack, fiancee, and dog">
+      <p class="tablet caption" id="about-caption-tablet">My fiancee, Leah, and Great Dane, Dave</p>
     </div>
-  </body>
 
   <div class="container">
     <footer>
@@ -75,8 +78,8 @@
       <nav>
         <ul>
           <li class="footer-logo"><a href="index.html"><img class="footer-logo-img" src="img/LogoFooterMobile.svg" alt="Footer logo"></a></li>
-          <li><a href="https://github.com/jackgumina" target="_blank"><img class="footer-img" src="img/GitHubMobile.svg" alt="GitHub logo"></li>
-          <li class="linkedin"><a href="https://www.linkedin.com/in/jackgumina/" target="_blank"><img class="footer-img-linkedin" src="img/linkedinMobile.svg" alt="LinkedIn logo"></li>
+          <li><a href="https://github.com/jackgumina" target="_blank"><img class="footer-img" src="img/GitHubMobile.svg" alt="GitHub logo"></a></li>
+          <li class="linkedin"><a href="https://www.linkedin.com/in/jackgumina/" target="_blank"><img class="footer-img-linkedin" src="img/linkedinMobile.svg" alt="LinkedIn logo"></a></li>
         </ul>
       </nav>
     </footer>

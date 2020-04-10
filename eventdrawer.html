@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159669819-1"></script>
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" type="image/png" href="/img/logo.png">
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora|Work+Sans:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
@@ -39,15 +39,15 @@
 
     <!-- hero -->
     <section class="hero-case-study">
-      <div class="large" id="event-drawer-heading-large-div">
+      <section class="large" id="event-drawer-heading-large-section">
           <img class="large" id="event-drawer-heading-large" src="img/EventDrawer/EventDrawerHeadingLarge.svg" alt="Event Drawer Heading">
-      </div>
-      <div class="xl" id="event-drawer-heading-xl-div">
+      </section>
+      <section class="xl" id="event-drawer-heading-xl-section">
         <div class="container" id="event-drawer-heading-xl-container">
           <img class="xl" id="event-drawer-heading-xl" src="img/EventDrawer/EventDrawerHeadingLarge.svg" alt="Event Drawer Heading">
           <img id="event-drawer-top-img-xl" src="img/EventDrawer/EventDrawerHeroImage.jpg" alt="Event Drawer on a desktop">
         </div>
-      </div>
+      </section>
       <div class="container">
         <img class="mobile" id="event-drawer-heading-small" src="img/EventDrawer/EventDrawerHeadingMobile.svg" alt="Event Drawer Heading">
       </div>
@@ -57,7 +57,7 @@
       <section class="project-intro">
         <div class="container" id="container-intro">
           <p class="project-intro">People use cloud storage products to help plan events.  Google Drive to create a guestlist, Pinterest to share ideas, Dropbox to send an important PDF.  Why not use a single product to perform all of these tasks?  Event Drawer aims to be the one-stop-shop for event planning needs.</p>
-          <button class="button-event-drawer" id="evd-view-prototype" type="button" onclick="window.open('https://invis.io/DQVH4A7V6YC', '_blank')">VIEW PROTOTYPE</button>
+          <a class="button button-event-drawer" id="button-view-prototype" href="https://invis.io/DQVH4A7V6YC" target="_blank">VIEW PROTOTYPE</a>
         </div>
       </section>
       <!-- This section for small devices -->
@@ -108,18 +108,18 @@
         <p class="p-case-study">The majority of users have a hard time predicting attendance levels and feel generally disorganized while event planning.</p>
       </section>
     </div>
-    <div class="container">
+    <section class="solution-section">
       <section class="solution">
         <h3>SOLUTION</h3>
         <p class="p-case-study">Event Drawer is a one-stop-shop for event planning and organization.  Users can create events (or drawers), upload or create related files within these drawers, invite contacts, and track attendance.</p>
       </section>
-    </div>
+    </section>
     <section class="solution-img">
       <div class="container" id="evd-solution-img">
         <img class="event-drawer-solution-img" src="img/EventDrawer/Home.png" alt="Event Drawer example screen 1">
         <img class="event-drawer-solution-img" src="img/EventDrawer/Inbox.png" alt="Event Drawer example screen 2">
         <img class="event-drawer-solution-img" src="img/EventDrawer/Invite.png" alt="Event Drawer example screen 3">
-        <img class="event-drawer-solution-img" src="img/EventDrawer/AttendanceList.png" alt="Event Drawer example screen 4">
+        <img class="event-drawer-solution-img last-img" src="img/EventDrawer/AttendanceList.png" alt="Event Drawer example screen 4">
       </div>
     </section>
 
@@ -132,51 +132,43 @@
           <li>Do people use cloud storage products to help plan events?</li>
           <li>What problems do users face when planning events?</li>
         </ol>
-        <!-- This div for mobile and tablet devices -->
-        <div class="mobile-and-tablet" id="evd-survey-results-small">
+        <!-- This section for mobile and tablet devices -->
+        <section class="mobile-and-tablet" id="evd-survey-results-small">
           <img class="mobile" id="event-drawer-survey" src="img/EventDrawer/SurveyResultsMobile.svg" alt="Survey results graph">
           <img class="tablet" id="event-drawer-survey-tablet" src="img/EventDrawer/SurveyResultsLarge.svg" alt="Survey results graph">
-          <button class="button-event-drawer" type="button" onclick="window.open('https://forms.gle/PiGCSuvtHmF2c9Ju7', '_blank')">VIEW SURVEY</button>
+          <a class="button button-event-drawer" href="https://forms.gle/PiGCSuvtHmF2c9Ju7" target="_blank">VIEW SURVEY</a>
           <p class="p-case-study" id="survey">Over 60% of respondents said they used cloud storage products to assist with event planning.  The two biggest problems users faced when planning events were keeping track of attendance levels and feeling generally disorganized and overwhelmed.  This survey informed me to create a product that would:</p>
-          <ol class="evd-big-list">
+          <ol id="evd-survey-list-small">
             <li>Allow users to track attendance</li>
             <li>Keep all event-related info in a single, easy-to-access space</li>
           </ol>
-        </div>
-        <!-- Same content as prior div, but reordered for desktop -->
-        <div id="evd-survey-results-large">
-          <div class="large" id="evd-survey-results-large-text">
+        </section>
+        <!-- Same content as prior section, but reordered for desktop -->
+        <section id="evd-survey-results-large">
+          <section class="large" id="evd-survey-results-large-text">
             <p class="p-case-study">Over 60% of respondents said they used cloud storage products to assist with event planning.  The two biggest problems users faced when planning events were keeping track of attendance levels and feeling generally disorganized and overwhelmed.  This survey informed me to create a product that would:</p>
             <ol id="evd-survey-list">
               <li>Allow users to track attendance</li>
               <li>Keep all event-related info in a single, easy-to-access space</li>
             </ol>
-          </div>
-          <div id="evd-survey-results-large-img">
+          </section>
+          <section id="evd-survey-results-large-img">
             <img class="large" id="evd-survey-large" src="img/EventDrawer/SurveyResultsLarge.svg" alt="Survey results graph">
-          </div>
-        </div>
-        <button class="button-event-drawer large" id="evd-survey-button-large" type="button" onclick="window.open('https://forms.gle/PiGCSuvtHmF2c9Ju7', '_blank')">VIEW SURVEY</button>
+          </section>
+        </section>
+        <a class="button button-event-drawer large" id="evd-survey-button-large" href="https://forms.gle/PiGCSuvtHmF2c9Ju7" target="_blank">VIEW SURVEY</a>
         <!-- Begin competitive analysis -->
-        <!-- First div for small devices -->
-        <div class="mobile-and-tablet" id="evd-comp-small">
-          <p class="p-case-study"id="evd-comp-small-text">I analyzed Google Drive, Dropbox, and Pinterest, which all allow for easy file creation and collaboration.  However, users would have to get creative in their use of each product to effectively use them as event planners.  Why not provide a product that was specifically tailored to this purpose?</p>
-          <img id="event-drawer-comp" src="img/EventDrawer/CompAnalysis.svg" alt="Competitor logos">
-        </div>
-        <button class="button-event-drawer mobile-and-tablet" id="evd-comp-button-small" type="button" onclick="window.open('img/EventDrawer/EventDrawerCompetitiveAnalysis.pdf', '_blank')">VIEW ANALYSIS</button>
-        <!-- reorder content to allow for CSS grid design for large devices -->
-        <div class="large" id="evd-comp-large">
-          <img id="evd-comp-large-img" src="img/EventDrawer/CompAnalysis.svg" alt="Competitor logos">
-          <p id="evd-comp-large-text">I analyzed Google Drive, Dropbox, and Pinterest, which all allow for easy file creation and collaboration.  However, users would have to get creative in their use of each product to effectively use them as event planners.  Why not provide a product that was specifically tailored to this purpose?</p>
-        </div>
-        <button class="button-event-drawer large" id="evd-comp-button-large" type="button" onclick="window.open('img/EventDrawer/EventDrawerCompetitiveAnalysis.pdf', '_blank')">VIEW ANALYSIS</button>
-
+        <p class="p-case-study" id="evd-comp-small-text">I analyzed Google Drive and Dropbox.  Both allow for easy file creation and collaboration.  However, there were some weaknesses in the interfaces and opportunities for improvement.</p>
+        <img id="google-drive-interface" src="img/EventDrawer/google-drive-interface.png" alt="Google drive interface">
+        <p class="p-case-study">Google drive has an intuitive navigation system.  It is easy to create new folders and move files around.  Calls to action, such as the "New" button, are obvious.  However, organization can get messy if the user is not careful.  Files can add up and crowd the screen.  An opportunity for improvement would be to space out content to allow for more white space.  This would help users scan pages more easily.</p>
+        <img id="dropbox-interface" src="img/EventDrawer/dropbox-interface.png" alt="Google drive interface">
+        <p class="p-case-study">Like Google Drive, Dropbox also has obvious calls to action, such as the "Create new file" button.  The list of files responds to hovering, which helps users know they are clickable.  One weakness is that creating folders is not as intuitive as creating new files.  This seems to be a task users would want to complete often, but the call to action is not as obvious as creating a new file.  In addition, there is not a big difference between the "Home" page and the "Files" page.  Two opportunities would be to enhance the folder creation call to action and combine the "Home" and "Files" pages to simplify the experience.</p>
         <!-- PERSONAS -->
         <p id="personas-intro">I created the following user personas:</p>
         <!-- User personas -->
-        <div class="personas-div">
-          <div class="persona">
-            <div class="persona-content">
+        <section class="personas-section mobile" id="personas-section-small">
+          <section class="persona">
+            <section class="persona-content">
               <img class="persona-img" src="img/EventDrawer/James.png" alt="Picture of James">
               <h3 class="persona-name">JAMES</h3>
               <ul class="persona-info">
@@ -199,11 +191,11 @@
                 <li>Receving dozens of texts with pictures after a weekend</li>
               </ol>
               <p class="persona-quote">“It can be a challenge balancing social and professional life, but I guess that’s part of the fun of being young!”</p>
-            </div>
-          </div>
+            </section>
+          </section>
 
-          <div class="persona">
-            <div class="persona-content">
+          <section class="persona">
+            <section class="persona-content">
               <img class="persona-img" src="img/EventDrawer/Gretchen.png" alt="Picture of Gretchen">
               <h3 class="persona-name">GRETCHEN</h3>
               <ul class="persona-info">
@@ -226,47 +218,139 @@
                 <li>Having to text her friends to get photos to show her friends</li>
               </ol>
               <p class="persona-quote">“I miss my kids!  But I do love all this free time.”</p>
-            </div>
-          </div>
-        </div>
+            </section>
+          </section>
+        </section>
+        <section class="personas-section large" id="personas-section-large">
+          <section class="persona">
+            <section class="persona-content">
+              <section class="persona-content-section-1">
+                <img class="persona-img" src="img/EventDrawer/James.png" alt="Picture of James">
+                <h3 class="persona-name">JAMES</h3>
+                <ul class="persona-info">
+                  <li class="persona-top-li">Social young professional</li>
+                  <li>25 years old</li>
+                  <li>Madison, WI</li>
+                </ul>
+                <p>James often makes plans with friends on the weekends.  He makes a decent salary for a person his age, but he is by no means wealthy.  He considers himself in line with his peer group of 25 year old college grads.</p>
+              </section>
+              <section class="persona-content-section">
+                <h3 class="persona-heading">MOTIVATIONS</h3>
+                <p>James often attends concerts and weekend getaways with friends.  Keeping track of attendance and payments can be a nightmare, and nobody really wants to take charge.  James thinks an event planning app could help solve this.  He also wants a go-to place for photos, so his friends don’t have to text him a bunch of pictures.</p>
+              </section>
+              <section class="persona-content-section-goals">
+                <h3 class="persona-heading">GOALS</h3>
+                <ol class="persona-list">
+                  <li>Keep track of event attendance</li>
+                  <li>Make sure everyone pays equal</li>
+                  <li class="final-goal">Have a go-to area for photos</li>
+                </ol>
+              </section>
+              <section class="persona-content-section-frustrations">
+                <h3 class="persona-heading">FRUSTRATIONS</h3>
+                <ol class="persona-list">
+                  <li>Friends not paying equally for an event</li>
+                  <li>Receving dozens of texts with pictures after a weekend</li>
+                </ol>
+              </section>
+              <section class="persona-content-section-quote">
+                <p class="persona-quote">“It can be a challenge balancing social and professional life, but I guess that’s part of the fun of being young!”</p>
+              </section>
+            </section>
+          </section>
+
+          <section class="persona">
+            <section class="persona-content">
+              <section class="persona-content-section-1">
+                <img class="persona-img" src="img/EventDrawer/Gretchen.png" alt="Picture of Gretchen">
+                <h3 class="persona-name">GRETCHEN</h3>
+                <ul class="persona-info">
+                  <li class="persona-top-li">Middle-aged empty nester</li>
+                  <li>54 years old</li>
+                  <li>San Diego, CA</li>
+                </ul>
+                <p>Gretchen has been a dental hygienist for 30 years. She has three children who are out of the house.  She and her husband have downsized to a condo, and Gretchen has found the adjustment difficult.  She also has a lot of free time.  Gretchen and her husband can afford a few vacations per year.</p>
+              </section>
+              <section class="persona-content-section">
+                <h3 class="persona-heading">MOTIVATIONS</h3>
+                <p>Gretchen has been adjusting to life without kids at home.  In order to take her mind off of it, she plans more vacations with friends.  Gretchen believes an app could be useful in keeping track of relevant documents between friends.  Right now, there is a lot of back-and-forth email, which can get overwhelming.</p>
+              </section>
+              <section class="persona-content-section-goals" >
+                <h3 class="persona-heading">GOALS</h3>
+                <ol class="persona-list">
+                  <li>Have all vacation documents all in one place</li>
+                  <li>Easily share with newcomers who decide to join the trip</li>
+                  <li class="final-goal">Post photos to remember the vacation</li>
+                </ol>
+              </section>
+              <section class="persona-content-section-frustrations">
+                <h3 class="persona-heading">FRUSTRATIONS</h3>
+                <ol class="persona-list">
+                  <li>Receiving too many emails when planning a vacation</li>
+                  <li>Having to text her friends to get photos to show her friends</li>
+                </ol>
+              </section>
+              <section class="persona-content-section-quote">
+                <p class="persona-quote">“I miss my kids!  But I do love all this free time.”</p>
+              </section>
+            </section>
+          </section>
+        </section>
       </section>
 
       <!-- End of personas, start of new section on user flows and stories -->
       <section class="stories-flows">
         <h3>STORIES & FLOWS</h3>
-        <p class="p-case-study">The most important user stories would allow for a single space to create, store, and share all event-related information.  They would also allow for tracking attendance.  Below are some examples of high priority user stories:
+        <p class="p-case-study">The most important user stories would allow for a single space to create, store, and share all event-related information.  They would also allow for tracking attendance.<br><br>Below are some examples of the highest priority user stories for an MVP:
         </p>
-        <ul class="user-flows">
-          <li>Sign Up</li>
-          <li>Create a new event folder or “drawer”</li>
-          <li>Invite other users to view or edit a folder</li>
-          <li>Accept a shared folder</li>
-          <li>Create, view, and edit an attendance list</li>
+        <ul class="user-stories-high">
+          <li>As a new user, I want to sign up so I can start using the site.</li>
+          <li>As a user, I want to create a new event folder (or "drawer") to store event info.</li>
+          <li>As an event creator, I want to invite users to an event so they can view its info.</li>
+          <li>As a user, I want to accept an invitation so I can join an event.</li>
+          <li>As an event creator, I want to view an attendance list so I know who is coming.</li>
         </ul>
-        <p class="p-case-study">I turned user stories into detailed user flows which outlined individual pages needed to complete the most important tasks.
+        <p>Medium priority user stories:</p>
+        <ul class="user-stories-medium">
+          <li>As a user, I want to upload a document so I can show it to the event members.</li>
+          <li>As a user, I want to create a schedule in order to communicate event timing.</li>
+          <li>As a user, I want to create a spreadsheet to develop an event budget.</li>
+          <li>As a user, I want to create a word document to share important info.</li>
+          <li>As a user, I want to create a photo album so I can share memories of the event.</li>
+          <li>As a user, I want to lock a file for editing so others cannot change it.</li>
+        </ul>
+        <p>Low priority user stories:</p>
+        <ul class="user-stories-low">
+          <li>As an event creator, I want to mark a file as "only for me" so it is private.</li>
+          <li>As an event creator, I want to mark a file as "only for people I share with" so it is private.</li>
+          <li>As an event creator, I want to mark a file as "public" so everyone can see it.</li>
+          <li>As a user, I want to send a file via email so I can directly communicate it to someone.</li>
+          <li>As a user, I want to upload a profile picture so others can see what I look like.</li>
+        </ul>
+        <p class="p-case-study">I chose the necessary user stories for an MVP and turned them into detailed user flows. These flows outlined the individual pages needed to complete the most important tasks.
         </p>
         <img id="sample-user-flow" src="img/EventDrawer/ExampleFlow.svg" alt="Sample user flow">
-        <button class="button-event-drawer" type="button" onclick="window.open('img/EventDrawer/EventDrawerUserFlows.pdf', '_blank')">USER FLOWS</button>
+        <a class="button button-event-drawer" href="img/EventDrawer/EventDrawerUserFlows.pdf" target="_blank">USER FLOWS</a>
       </section>
+    </div>
 
       <!-- Wireframes start here with an image of a sketch -->
-    </div>
       <section class="wireframes">
-        <!-- Div created for Wireframe sketch to allow for parallax scrolling image created in CSS -->
-        <div id="banner-wireframe-evd">
+        <!-- Section created for Wireframe sketch to allow for parallax scrolling image created in CSS -->
+        <section id="banner-wireframe-evd">
 
-        </div>
+        </section>
         <div class="container">
           <h3>WIREFRAMES</h3>
           <p class="p-case-study">Informed by my user flows, I sketched wireframes of each page, and I transferred these sketches to Figma.  Not every Figma component matched the sketches identically, and that was okay.  There is a practical gap between what I put on paper and the grid system used on Figma.  Using a grid kept components consistently sized and sped up the process significantly.
           </p>
-          <div id="evd-wireframe-img">
+          <section id="evd-wireframe-img">
             <img class="wireframe-img" src="img/EventDrawer/Wireframe1.jpg" alt="Wireframe example">
             <img class="wireframe-img" src="img/EventDrawer/Wireframe2.jpg" alt="Wireframe example">
             <img class="wireframe-img" src="img/EventDrawer/Wireframe3.jpg" alt="Wireframe example">
             <img class="wireframe-img" src="img/EventDrawer/Wireframe4.jpg" alt="Wireframe example">
-          </div>
-          <button class="button-event-drawer" id="wireframe-prototype" type="button" onclick="window.open('https://invis.io/Y2UEJZJUMNA', '_blank')">WIREFRAME<br>PROTOTYPE</button>
+          </section>
+          <a class="button button-event-drawer" id="wireframe-prototype" href="https://invis.io/Y2UEJZJUMNA" target="_blank">WIREFRAME<br>PROTOTYPE</a>
         </div>
       </section>
     <div class="container">
@@ -280,34 +364,43 @@
           <li>Move one document from one event folder to another</li>
         </ol>
         <p class="p-case-study">Overall, users were able to complete the tasks.  However, they did offer some suggestions for improvements.<br><br></p>
-        <div id="evd-buttons-size">
+        <section id="evd-buttons-size">
           <p class="p-case-study">Not all buttons were consistently sized, which sometimes confused users.  Was there a difference in importance between the large and small buttons?  Did they all function the same?  I needed to make all buttons uniform.</p>
-          <div id="evd-buttons">
+          <aside id="evd-buttons">
             <img class="event-drawer-button" src="img/EventDrawer/Button1Mobile.svg" alt="Button">
             <img class="event-drawer-button" id="event-drawer-final-button" src="img/EventDrawer/Button2Mobile.svg" alt="Button">
-          </div>
-        </div>
-        <div class="mobile-and-tablet" id="evd-google-small">
+          </aside>
+        </section>
+        <h3 class="before-after">BEFORE</h3>
+        <img class="before-after-img" src="img/EventDrawer/evd-buttons-before.png" alt="Buttons before">
+        <h3 class="before-after">AFTER</h3>
+        <img class="before-after-img" src="img/EventDrawer/evd-buttons-after.png" alt="Buttons after">
+        <section class="mobile-and-tablet" id="evd-google-small">
           <p class="p-case-study">When signing up with Google, the users did not know where the verification code would be sent.  I needed to clear this up.</p>
           <img id="event-drawer-google" src="img/EventDrawer/GoogleMobile.svg" alt="Google verification">
-        </div>
-        <div class="large" id="evd-google-large">
-          <img id="event-drawer-google-large" src="img/EventDrawer/GoogleMobile.svg" alt="Google verification">
+        </section>
+        <section class="large" id="evd-google-large">
           <p class="p-case-study">When signing up with Google, the users did not know where the verification code would be sent.  I needed to clear this up.</p>
-        </div>
-        <div id="evd-move-buttons">
-          <p class="p-case-study">When moving files from one drawer to another, the “move” button did not stand out clearly to users.  This reminded me that I needed to give the most important elements on the screen priority in the visual hierarchy.  I thought the best way to do this would be with the use of color in my high fidelity mockups.</p>
+          <img id="event-drawer-google-large" src="img/EventDrawer/GoogleMobile.svg" alt="Google verification">
+        </section>
+        <h3 class="before-after">BEFORE</h3>
+        <img class="before-after-img" src="img/EventDrawer/google-before.png" alt="Verification before">
+        <h3 class="before-after">AFTER</h3>
+        <img class="before-after-img" src="img/EventDrawer/google-after.png" alt="Verification after">
+        <section id="evd-move-buttons">
+          <p class="p-case-study">When moving files from one drawer to another, the “move” button did not stand out clearly to users.  This reminded me that I needed to give the most important elements on the screen priority in the visual hierarchy.  I thought the best way to do this would be later on with the use of color in my high fidelity mockups.</p>
           <img id="event-drawer-move-buttons" src="img/EventDrawer/MoveMobile.svg" alt="Move buttons">
-        </div>
+        </section>
+        <img class="before-after-img" src="img/EventDrawer/move-button.png" alt="Verification after">
       </section>
     </div>
 
       <!-- Branding and Visual Design start here with an image of a sketch -->
       <section>
-        <!-- Div created for Mind Map sketch to allow for parallax scrolling image created in CSS -->
-        <div id="banner-mind-map-evd">
+        <!-- Section created for Mind Map sketch to allow for parallax scrolling image created in CSS -->
+        <section id="banner-mind-map-evd">
 
-        </div>
+        </section>
         <div class="container">
           <h3>BRANDING AND VISUAL DESIGN</h3>
           <p class="p-case-study">One of the problems users faced when planning events was feeling stressed and overwhelmed.  I wanted to induce a feeling of happiness about the event itself, and not the stress of planning it.  I came up with four core brand adjectives:
@@ -324,10 +417,10 @@
           <img class="large" id="event-drawer-colors-large" src="img/EventDrawer/ColorsLarge.svg" alt="Color palette">
           <p class="p-case-study">I was initally torn between two brand typefaces -- Berkshire Swash and Yeseva One.  Berkshire Swash’s curves and movement give off a sense of fun.  Yeseva One still seemed fun, but a bit more readable and sleek.  Preference testing showed me 83% of users preferred Yeseva One.
           </p>
-          <div id="evd-brand-typeface">
+          <aside id="evd-brand-typeface">
             <p id="berkshire-swash">Berkshire Swash</p>
             <p id="yeseva-one">Yeseva One</p>
-          </div>
+          </aside>
           <p class="p-case-study">I chose Lato as my complimentary typeface.  Lato is round enough to appear warm and friendly, but straightforward enough to be readable in large chunks.  Lato’s even line weight compliments Yeseva One’s uneven weight, yet the letter styles such as “a” and “g” remain consistent between the two.
           </p>
           <p id="evd-brand-typeface-1">Brand Typeface</p>
@@ -336,9 +429,13 @@
           <p id="evd-header-three">Header Level 3</p>
           <p class="p-case-study" id="evd-paragraph">This is a paragraph.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <p id="evd-link">This is a link</p>
-          <p class="p-case-study">For a logo, I thought a drawer could be homey and fun-looking.
+          <p class="p-case-study">I sketched out a few ideas for a logo, including another name, "Event Docs."
           </p>
-          <img id="event-drawer-logo-sketch" src="img/EventDrawer/LogoSketch.jpg" alt="Logo sketch">
+          <img class="event-drawer-logo-sketch" src="img/EventDrawer/logo-sketch-1.jpg" alt="Logo sketch 1">
+          <img class="event-drawer-logo-sketch" src="img/EventDrawer/logo-sketch-2.jpg" alt="Logo sketch 1">
+          <img class="event-drawer-logo-sketch" src="img/EventDrawer/logo-sketch-3.jpg" alt="Logo sketch 1">
+          <p>In the end, I thought this drawer could be homey and fun-looking:</p>
+          <img class="event-drawer-logo-sketch" src="img/EventDrawer/LogoSketch.jpg" alt="Logo sketch">
           <img class="mobile" id="event-drawer-logo-1-mobile" src="img/EventDrawer/Logo1Mobile.svg" alt="First logo vector">
           <img class="large" id="event-drawer-logo-1-large" src="img/EventDrawer/Logo1Large.svg" alt="First logo vector">
           <p class="p-case-study">When creating hi-fi mockups, I realized my drawer handle was too detailed for a small scale.  I simplified it.
@@ -347,10 +444,12 @@
           <img class="large" id="event-drawer-logo-2-large" src="img/EventDrawer/Logo2Large.svg" alt="Final logo vector">
           <p class="p-case-study">One of the biggest challenges during the visual design process was the use of color throughout the site.  I began with a mahogany background along with a cream color instead white.
           </p>
-          <img class="event-drawer-home" src="img/EventDrawer/Home1.jpg" alt="Home screen">
+          <h3 class="before-after">BEFORE</h3>
+          <img class="before-after-img" src="img/EventDrawer/Home1.jpg" alt="Home screen">
           <p class="p-case-study">Through preference testing and discussions with the design team, I came to the conclusion that my background was too dark.  It took focus away from the most important elements on the page, such as buttons and text.  In addition, the cream color looked dated.  I went with white instead to give the site a cleaner and more modern feel.  I also lightened the drawers.
           </p>
-          <img class="event-drawer-home" src="img/EventDrawer/Home2.jpg" alt="Revised home screen">
+          <h3 class="before-after">AFTER</h3>
+          <img class="before-after-img" src="img/EventDrawer/Home2.jpg" alt="Revised home screen">
         </div>
       </section>
     <div class="container">
@@ -368,20 +467,22 @@
         </ol>
         <p class="p-case-study">I also had users comment on the brand and feel of the site.  How did it make them feel?  What was the brand conveying to them?  Overall, users were able to complete each of the tasks.  They also said the brand felt fun and friendly.  However, the site was far from perfect.  Users were able to point to improvements that I may not have otherwise noticed.<br><br>
         </p>
-        <div id="event-drawer-input-div">
+        <section id="event-drawer-input-section">
           <p class="p-case-study">Input fields were inconsistent and too tall.  This confused users because they were unsure if some fields were buttons or not.  I needed to shorten the input fields and make them uniform.
           </p>
-          <div id="evd-inputs">
+          <aside id="evd-inputs">
             <img id="event-drawer-input-1" src="img/EventDrawer/Input1Mobile.svg" alt="Input field">
             <img id="event-drawer-input-2" src="img/EventDrawer/Input2Mobile.svg" alt="Input field">
-          </div>
-        </div>
+          </aside>
+        </section>
         <p class="p-case-study">On the inbox page, users the messages looked like buttons instead of mail items in an inbox.  Also, why were some red and some white? (My idea was to have unread messages be red).
         </p>
-        <img id="event-drawer-inbox-old" src="img/EventDrawer/InboxOld.jpg" alt="First inbox">
+        <h3 class="before-after">BEFORE</h3>
+        <img class="before-after-img" src="img/EventDrawer/InboxOld.jpg" alt="First inbox">
         <p class="p-case-study">I squared off these elements and reduced their vertical spacing to make them appear more like an email inbox.  I also made them white and gray instead of red in order to distinguish them from buttons.  I added icons to more clearly display which messages were read and unread.
         </p>
-        <img id="event-drawer-inbox-new" src="img/EventDrawer/InboxNew.jpg" alt="Revised inbox">
+        <h3 class="before-after">AFTER</h3>
+        <img class="before-after-img" src="img/EventDrawer/InboxNew.jpg" alt="Revised inbox">
       </section>
     </div>
     <section id="event-drawer-final-thoughts">
@@ -392,12 +493,12 @@
     </section>
     <!-- Final image (mockup of Event Drawer in use) -->
     <img id="event-drawer-final-img" src="img/EventDrawer/EndMockup.jpg" alt="Event drawer on a laptop">
-    <div id="event-drawer-final-img-div-xl">
+    <section id="event-drawer-final-img-section-xl">
       <div class="container">
         <img class="xl" id="event-drawer-final-img-xl" src="img/EventDrawer/EndMockup.jpg" alt="Event drawer on a laptop">
       </div>
-    </div>
-  </body>
+    </section>
+
 
   <footer>
     <div class="container">
@@ -406,11 +507,13 @@
       <nav>
         <ul>
           <li class="footer-logo"><a href="index.html"><img class="footer-logo-img" src="img/LogoFooterMobile.svg" alt="Footer logo"></a></li>
-          <li><a href="https://github.com/jackgumina" target="_blank"><img class="footer-img" src="img/GitHubMobile.svg" alt="GitHub logo"></li>
-          <li class="linkedin"><a href="https://www.linkedin.com/in/jackgumina/" target="_blank"><img class="footer-img-linkedin" src="img/linkedinMobile.svg" alt="LinkedIn logo"></li>
+          <li><a href="https://github.com/jackgumina" target="_blank"><img class="footer-img" src="img/GitHubMobile.svg" alt="GitHub logo"></a></li>
+          <li class="linkedin"><a href="https://www.linkedin.com/in/jackgumina/" target="_blank"><img class="footer-img-linkedin" src="img/linkedinMobile.svg" alt="LinkedIn logo"></a></li>
         </ul>
       </nav>
     </div>
   </footer>
+
+</body>
 
 </html>

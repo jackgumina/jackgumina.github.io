@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" type="image/png" href="/img/logo.png">
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora|Work+Sans:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
   </head>
 
   <header>
@@ -33,38 +34,38 @@
     </nav>
   </header>
 
-  <body>
+
     <div class="container">
       <h3 class="contact-heading">WANT TO GET IN TOUCH?</h3>
       <p class="p-case-study" id="contact-p">Just fill out the form below and click send.  I'll get back to you via email as soon as possible.</p>
     </div>
 
-      <div class="contact-form-div">
+      <main class="contact-form-section">
         <div class="container" id="contact-form-id">
           <form id="contact-form" action="https://formspree.io/xvorrngv" method="POST">
-            <input name="name" type="text" class="form-control" id="form-control-1" placeholder="Your Name" required>
+            <label id="label-1" for="form-control-1">Your Name</label>
+            <input name="name" type="text" class="form-control" id="form-control-1" required>
             <br>
-            <input name="_replyto" type="text" class="form-control" placeholder="Your Email" required>
+            <label for="form-control-2">Your Email</label>
+            <input name="_replyto" type="text" class="form-control" id="form-control-2" required>
             <br>
-            <textarea name="body" class="form-control-message" placeholder="Type your message here..." row="4" required></textarea>
+            <label for="form-control-3">Type your message here...</label>
+            <textarea name="body" class="form-control-message" id="form-control-3" required></textarea>
             <br>
             <input type="submit" class="form-control-submit" value="SEND">
           </form>
         </div>
-      </div>
-  </body>
-
-  <script src="js/script.js"></script>
+      </main>
 
   <div class="container">
     <footer id="contact-footer">
-      <a class="footer-email-me" href="mailto:jackgumina@gmail.com">Click here to email me!</a>
+      <a class="footer-email-me" href="mailto:jackgumina@gmail.com">Click here to email me directly!</a>
       <hr>
       <nav>
         <ul>
           <li class="footer-logo"><a href="index.html"><img class="footer-logo-img" src="img/LogoFooterMobile.svg" alt="Footer logo"></a></li>
-          <li><a href="https://github.com/jackgumina" target="_blank"><img class="footer-img" src="img/GitHubMobile.svg" alt="GitHub logo"></li>
-          <li class="linkedin"><a href="https://www.linkedin.com/in/jackgumina/" target="_blank"><img class="footer-img-linkedin" src="img/linkedinMobile.svg" alt="LinkedIn logo"></li>
+          <li><a href="https://github.com/jackgumina" target="_blank"><img class="footer-img" src="img/GitHubMobile.svg" alt="GitHub logo"></a></li>
+          <li class="linkedin"><a href="https://www.linkedin.com/in/jackgumina/" target="_blank"><img class="footer-img-linkedin" src="img/linkedinMobile.svg" alt="LinkedIn logo"></a></li>
         </ul>
       </nav>
     </footer>
