@@ -699,6 +699,7 @@ p {
   border-style: solid;
   border-width: .1rem;
   margin-bottom: 3.2rem;
+  padding-top: 0;
 }
 
 /* container around content within user personas */
