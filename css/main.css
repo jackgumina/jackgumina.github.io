@@ -598,6 +598,10 @@ hr {
   margin-bottom: 2rem;
 }
 
+.input {
+  text-align: center;
+}
+
 label {
   color: #535353;
   display: block;
@@ -731,6 +735,10 @@ p {
 
 .persona-name {
   padding-bottom: 0;
+}
+
+.personas-section {
+  padding-top: 0;
 }
 
 .persona-quote {
