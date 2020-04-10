@@ -1,4 +1,4 @@
-* {
+mind-map-sketch-mobile* {
   box-sizing: border-box;
 }
 
@@ -50,7 +50,7 @@ html {
 
 /* Sketch of wireframes.  On mobile and tablet, this image is stationary.  On desktop, this will be a parallax scrolling image. */
 #banner-wireframe-evd {
-  background-image: url(../img/EventDrawer/WireframeSketchMobile.jpg);
+  background-image: url(../img/event-drawer/wireframe-sketch-mobile.jpg);
   background-size: 100%;
   height: 12rem;
   margin-bottom: 2rem;
@@ -58,7 +58,7 @@ html {
 
 /* Sketch of mind map.  On mobile and tablet, this image is stationary.  On desktop, this will be a parallax scrolling image. */
 #banner-mind-map-evd {
-  background-image: url(../img/EventDrawer/MindMapSketchMobile.jpg);
+  background-image: url(../img/event-drawer/mind-map-sketch-mobile.jpg);
   background-size: 100%;
   height: 12rem;
   margin-bottom: 2rem;
@@ -94,7 +94,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-size: 1.6rem;
   font-weight: bold;
-  height: 4.8rem;
+  height: 1.6rem;
   letter-spacing: .1em;
   margin: auto;
   padding: 1.4rem 0;
@@ -118,7 +118,7 @@ body {
   display: block;
   font-family: 'Work Sans', sans-serif;
   font-size: 1.6rem;
-  height: 4.8rem;
+  height: 1.6rem;
   letter-spacing: .1em;
   margin: 0 auto;
   padding: 1.4rem 0;
@@ -954,7 +954,7 @@ ul > li {
 
 /* specific adjustment for the wireframe prototype button in Event Drawer case study */
 #wireframe-prototype {
-  height: 6rem;
+  height: 4.4rem;
   line-height: 140%;
   margin-top: 3.2rem;
   padding: .6rem 0;
@@ -1012,7 +1012,7 @@ ul > li {
 
 /* creates parallax scrolling in Event Drawer case study for mind map sketch image */
   #banner-mind-map-evd {
-    background-image: url(../img/EventDrawer/MindMapSketch.jpg);
+    background-image: url(../img/event-drawer/mind-map-sketch.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -1023,12 +1023,12 @@ ul > li {
 
 /* creates parallax scrolling in Event Drawer case study for wireframe sketch image */
   #banner-wireframe-evd {
-    background-image: url(../img/EventDrawer/WireframeSketch.jpg);
+    background-image: url(../img/event-drawer/wireframe-sketch.jpg);
     background-size: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    height: 40rem;
+    height: 32rem;
     margin-bottom: 2.8rem;
   }
 
@@ -1269,16 +1269,15 @@ ul > li {
     width: 35%;
   }
 
-/* allows for overlap of case study heading and background image for the Event Drawer hero */
-  #event-drawer-heading-large-section {
-    background-image: url("../img/EventDrawer/EventDrawerHeroImage.jpg");
-    background-size: 100%;
-    padding-bottom: 45%;
-    padding-left: 4.8rem;
-    padding-top: 4.8rem;
-    width: 100%;
-    height: 100%;
-  }
+  /* allows for overlap of case study heading and background image for the Event Drawer hero */
+    #event-drawer-heading-large-section {
+      background-image: url("../img/event-drawer/event-drawer-hero-image.jpg");
+      background-size: 100%;
+      padding-bottom: 45%;
+      padding-left: 4.8rem;
+      padding-top: 4.8rem;
+      height: 100%;
+    }
 
   #event-drawer-input-1 {
     padding: .8rem 0 2rem 0;
@@ -1331,7 +1330,7 @@ ul > li {
 
 /* This element has a specific width which is different from the other li's/children of the li's */
   .footer-logo-img {
-    width: 5.6rem;
+    width: 4rem;
   }
 
   footer nav ul li {
@@ -1767,7 +1766,7 @@ ul > li {
 
 /* allows for overlap of case study heading and background image for the Event Drawer hero */
   #event-drawer-heading-large-section {
-    background-image: url("../img/EventDrawer/EventDrawerHeroImage.jpg");
+    background-image: url("../img/event-drawer/event-drawer-hero-image.jpg");
     background-size: 100%;
     display: block !important;
     padding-bottom: 45%;
