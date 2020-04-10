@@ -389,7 +389,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3.6rem;
-  padding: 0 0 4rem 0;
+  padding: 0 0 0rem 0;
 }
 
 /* The solution images under "Solution" section */
