@@ -1,0 +1,27 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3896830, 2020-04-29T18:38:54-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: TradeGothicLTPro-BdCn20 by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/trade-gothic/pro-bold-condensed-20/
+ * Copyright: Copyright 2014 Monotype GmbH. All rights reserved.
+ *
+ *
+ *
+ * © 2020 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3b75fe");
+
+@font-face {
+  font-family: 'TradeGothicLTPro-BdCn20';
+  src: url('webFonts/TradeGothicLTPro-BdCn20/font.woff2') format('woff2'), url('webFonts/TradeGothicLTPro-BdCn20/font.woff') format('woff');
+}
